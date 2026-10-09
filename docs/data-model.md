@@ -32,7 +32,7 @@ Capabilities declared at publish:
 {
   "db": {
     "rules": [
-      { "path": "config", "read": "view", "write": "owner" },
+      { "path": "", "read": "view", "write": "owner" },
       { "path": "orders", "read": "owner", "write": "owner" },
       { "path": "orders/{self}", "write": "interact" }
     ]
@@ -42,6 +42,7 @@ Capabilities declared at publish:
 ```
 | Path | Shape | Who |
 |---|---|---|
+| (root) | — | everyone reads; only the owner writes anything not covered below |
 | `config/spot` | `{ perGram: number, asOf: "YYYY-MM-DD" }` | everyone reads; owner writes |
 | `orders/<viewer id>` | `{ lastOrder, lastOrderAt, name }` index doc | customer writes own; owner reads all |
 | `orders/<viewer id>/items/<code>` | `OrderRecord` (`src/services/orders.ts`) | customer writes own; owner reads all |

@@ -35,7 +35,8 @@ npm run build        # typecheck + single-file build + artifactize -> dist/artif
 npm run preview      # serve dist/ on :4173
 ```
 
-Publish: run `/publish` (see `.claude/commands/publish.md`). The live URL is recorded in `docs/deployment.md`.
+Publish: run `/publish` (see `.claude/commands/publish.md`).
+Live: https://claude.ai/artifact/JJGTBHeupW18JKGitJyCfo (details in `docs/deployment.md`). Source: https://github.com/Lvnc9/Gold-Shop (private).
 
 ## Stack (one line each)
 

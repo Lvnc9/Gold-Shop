@@ -12,7 +12,8 @@ npm run build
 Publish `dist/artifact.html` with Claude's Artifact tool (see `.claude/commands/publish.md`).
 
 ## Live site
-- URL: _set on first publish_
+- URL: **https://claude.ai/artifact/JJGTBHeupW18JKGitJyCfo** (first published 2026-10-09, version 1)
+- Seeded DB: `config/spot` = `{ perGram: 133.23, asOf: "2026-10-06" }`
 - Visibility: private by default. To share: open the artifact on claude.ai → **Share** → turn on the public link
   (or share with your organisation). Viewers on a public link can browse and configure; see
   `data-model.md` → "Who can save an order".
