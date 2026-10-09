@@ -40,7 +40,7 @@ Live: https://claude.ai/artifact/JJGTBHeupW18JKGitJyCfo (details in `docs/deploy
 
 ## Stack (one line each)
 
-React 19 + TypeScript · Vite 8 + `vite-plugin-singlefile` · three.js 0.186 (procedural models, `RoomEnvironment` lighting) · `motion` for UI transitions · GSAP ScrollTrigger + Lenis for scroll · Phosphor icons · Google Fonts: Bodoni Moda / Manrope / IBM Plex Mono.
+React 19 + TypeScript · Vite 8 + `vite-plugin-singlefile` · three.js 0.186 (procedural models, baked light-box environment) · `motion` for UI transitions · GSAP ScrollTrigger + Lenis for scroll · Phosphor icons · Google Fonts: Bodoni Moda / Manrope / IBM Plex Mono.
 
 ## Hard constraints from the Artifact host (break these and the page silently fails)
 
