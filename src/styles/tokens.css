@@ -1,0 +1,90 @@
+/* Layout concept: a jewel-box storefront — quiet alabaster (light) or night-green (dark) pages,
+   with every live piece of gold presented inside a dark velvet "box" that is the same in both themes. */
+:root {
+  /* colour — light */
+  --bg: #eceee8;
+  --bg-raised: #f6f7f2;
+  --ink: #12211c;
+  --ink-soft: #3c4a44;
+  --muted: #66746d;
+  --line: rgba(18, 33, 28, 0.12);
+  --line-strong: rgba(18, 33, 28, 0.22);
+  --gold: #9a6d16;          /* gold as text/lines: dark enough for AA on --bg */
+  --gold-bright: #d6a640;   /* gold as fill */
+  --gold-ink: #1b1406;      /* text on gold fill */
+  --rose: #b9715a;
+  --white-gold: #a9a69c;
+  --danger: #a8332a;
+  --ok: #2f6f4f;
+  --shadow: 0 1px 2px rgba(18, 33, 28, 0.06), 0 12px 32px -12px rgba(18, 33, 28, 0.18);
+
+  /* velvet box — identical in both themes on purpose */
+  --velvet: #0c231c;
+  --velvet-deep: #06140f;
+  --velvet-ink: #efe7d4;
+  --velvet-muted: #9fb0a7;
+  --velvet-line: rgba(239, 231, 212, 0.14);
+
+  /* type */
+  --font-display: "Bodoni Moda", "Didot", "Bodoni 72", "Times New Roman", serif;
+  --font-body: "Manrope", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --step--1: clamp(0.78rem, 0.76rem + 0.1vw, 0.84rem);
+  --step-0: clamp(0.94rem, 0.9rem + 0.18vw, 1.04rem);
+  --step-1: clamp(1.12rem, 1.04rem + 0.4vw, 1.34rem);
+  --step-2: clamp(1.4rem, 1.22rem + 0.9vw, 1.9rem);
+  --step-3: clamp(1.9rem, 1.5rem + 2vw, 3rem);
+  --step-4: clamp(2.6rem, 1.8rem + 4.2vw, 5.4rem);
+  --step-5: clamp(3.2rem, 2rem + 6.4vw, 7.6rem);
+
+  /* space & shape */
+  --gutter: clamp(16px, 4vw, 48px);
+  --max: 1320px;
+  --radius-s: 8px;
+  --radius-m: 14px;
+  --radius-l: 26px;
+
+  /* motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #08130f;
+    --bg-raised: #0f1d18;
+    --ink: #ede6d6;
+    --ink-soft: #c9c3b4;
+    --muted: #93a39b;
+    --line: rgba(237, 230, 214, 0.11);
+    --line-strong: rgba(237, 230, 214, 0.22);
+    --gold: #e2b85a;
+    --gold-bright: #e2b85a;
+    --gold-ink: #1b1406;
+    --rose: #e3a48f;
+    --white-gold: #d9d6cc;
+    --danger: #f0897d;
+    --ok: #7fcfa2;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 16px 40px -16px rgba(0, 0, 0, 0.6);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #08130f;
+  --bg-raised: #0f1d18;
+  --ink: #ede6d6;
+  --ink-soft: #c9c3b4;
+  --muted: #93a39b;
+  --line: rgba(237, 230, 214, 0.11);
+  --line-strong: rgba(237, 230, 214, 0.22);
+  --gold: #e2b85a;
+  --gold-bright: #e2b85a;
+  --gold-ink: #1b1406;
+  --rose: #e3a48f;
+  --white-gold: #d9d6cc;
+  --danger: #f0897d;
+  --ok: #7fcfa2;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 16px 40px -16px rgba(0, 0, 0, 0.6);
+  color-scheme: dark;
+}
