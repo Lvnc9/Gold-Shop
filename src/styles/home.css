@@ -284,6 +284,7 @@
   background: var(--bg-raised);
   box-shadow: inset 0 0 0 1px var(--line);
   transition: box-shadow 0.4s;
+  overflow: hidden;
 }
 .rail__panel:hover {
   box-shadow: inset 0 0 0 1px var(--gold);
@@ -299,7 +300,8 @@
   min-width: 0;
 }
 .rail__name {
-  font-size: clamp(2.4rem, 1.6rem + 3vw, 4.4rem);
+  font-size: clamp(2rem, 1.3rem + 2vw, 3.3rem);
+  overflow-wrap: anywhere;
   font-style: italic;
   font-weight: 400;
   margin-top: auto;

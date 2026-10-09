@@ -15,6 +15,8 @@ interface DetailPart {
   tex: THREE.Texture;
   amount: number;
   side: THREE.Side;
+  /** Where the engraving sits (mesh-local point) and the direction to look at it from. */
+  anchor?: { point: THREE.Vector3; dir: THREE.Vector3 };
   /** Rebuilds the texture for a new engraving text. */
   engrave?: (text: string) => THREE.Texture;
 }
@@ -70,17 +72,34 @@ export class Kit {
     kind: 'bump' | 'normal',
     tex: THREE.Texture,
     amount: number,
-    opts: { owned?: boolean; engrave?: (text: string) => THREE.Texture; parent?: THREE.Object3D; side?: THREE.Side } = {},
+    opts: {
+      owned?: boolean;
+      engrave?: (text: string) => THREE.Texture;
+      parent?: THREE.Object3D;
+      side?: THREE.Side;
+      anchor?: { point: THREE.Vector3; dir: THREE.Vector3 };
+    } = {},
   ): THREE.Mesh {
     const m = new THREE.Mesh(this.track(geo), this.placeholder);
     (opts.parent ?? this.root).add(m);
     if (opts.owned) this.ownedTextures.add(tex);
-    this.details.push({ mesh: m, kind, tex, amount, side: opts.side ?? THREE.FrontSide, engrave: opts.engrave });
+    this.details.push({ mesh: m, kind, tex, amount, side: opts.side ?? THREE.FrontSide, engrave: opts.engrave, anchor: opts.anchor });
     return m;
   }
 
   get engravable(): boolean {
     return this.details.some((d) => d.engrave);
+  }
+
+  /** World-space point of the engraving and a unit direction to view it from. */
+  engravingAnchor(): { point: THREE.Vector3; dir: THREE.Vector3 } | null {
+    const d = this.details.find((x) => x.engrave && x.anchor);
+    if (!d?.anchor) return null;
+    d.mesh.updateWorldMatrix(true, false);
+    return {
+      point: d.mesh.localToWorld(d.anchor.point.clone()),
+      dir: d.anchor.dir.clone().transformDirection(d.mesh.matrixWorld),
+    };
   }
 
   setGold(mat: THREE.MeshPhysicalMaterial) {

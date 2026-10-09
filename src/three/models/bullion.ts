@@ -61,7 +61,11 @@ function coinBody(
   const back = new THREE.CircleGeometry(r - 0.05, 128);
   back.rotateY(Math.PI);
   back.translate(0, 0, -th / 2);
-  kit.detail(back, 'bump', faces.back, faces.amount, { owned: true, engrave: faces.backEngrave });
+  kit.detail(back, 'bump', faces.back, faces.amount, {
+    owned: true,
+    engrave: faces.backEngrave,
+    anchor: { point: new THREE.Vector3(0, 0, -th / 2), dir: new THREE.Vector3(0, 0.1, -1).normalize() },
+  });
 }
 
 export function round(o: BuildOptions): Kit {

@@ -15,6 +15,8 @@ export function engravedLiner(kit: Kit, r: number, w: number, text: string, opts
     owned: true,
     engrave: opts.engravable === false ? undefined : bandEngraving,
     side: THREE.BackSide,
+    // Text is centred on the bottom of the inside wall; look at it from above the front edge.
+    anchor: { point: new THREE.Vector3(0, -r, 0), dir: new THREE.Vector3(0, 1.5, 1).normalize() },
   });
 }
 
@@ -106,6 +108,7 @@ export function signet(o: BuildOptions): Kit {
   kit.detail(face, 'bump', faceEngraving(o.engraving, 'monogram'), 2.4, {
     owned: true,
     engrave: (text) => faceEngraving(text, 'monogram'),
+    anchor: { point: new THREE.Vector3(0, top, 0), dir: new THREE.Vector3(0, 1, 0.3).normalize() },
   });
 
   kit.root.rotation.set(0.95, -0.35, 0);

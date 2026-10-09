@@ -50,8 +50,8 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
       ref={ref}
       className="pcard"
       layout
-      initial={{ opacity: 0, y: 28 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      initial={{ y: 28, scale: 0.985 }}
+      whileInView={{ y: 0, scale: 1 }}
       viewport={{ once: true, margin: '-40px' }}
       exit={{ opacity: 0, scale: 0.96 }}
       transition={{ duration: 0.8, delay: (index % 4) * 0.07, ease: [0.16, 1, 0.3, 1] }}

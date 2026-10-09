@@ -25,7 +25,7 @@ export function Viewer({ product, config }: { product: Product; config: Config }
     view.autoRotate = !spinning;
     setSpinning(!spinning);
   };
-  const canPeek = !!product.engraving && product.engraving.where !== 'on the face';
+  const canPeek = !!product.engraving;
 
   if (!supported) {
     return (
@@ -73,12 +73,13 @@ export function Viewer({ product, config }: { product: Product; config: Config }
         {canPeek && (
           <button
             className="tool tool--wide"
+            aria-label="See engraving"
             onClick={() => {
               view?.showInside();
               setSpinning(false);
             }}
           >
-            <Eye size={18} /> See engraving
+            <Eye size={18} /> <span className="tool__label">See engraving</span>
           </button>
         )}
       </div>

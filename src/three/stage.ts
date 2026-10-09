@@ -33,7 +33,7 @@ export class Stage {
     this.renderer.setPixelRatio(1); // views manage device pixels themselves
     this.renderer.setSize(8, 8, false);
     this.renderer.toneMapping = THREE.NeutralToneMapping;
-    this.renderer.toneMappingExposure = 1.05;
+    this.renderer.toneMappingExposure = 1.1;
     this.renderer.outputColorSpace = THREE.SRGBColorSpace;
     this.renderer.setClearColor(0x000000, 0);
     const pmrem = new THREE.PMREMGenerator(this.renderer);
@@ -90,7 +90,7 @@ function studio(): THREE.Scene {
   const scene = new THREE.Scene();
   const room = new THREE.Mesh(
     new THREE.BoxGeometry(12, 12, 12),
-    new THREE.MeshBasicMaterial({ color: new THREE.Color(0x2a2620), side: THREE.BackSide }),
+    new THREE.MeshBasicMaterial({ color: new THREE.Color(0x3b342a), side: THREE.BackSide }),
   );
   scene.add(room);
   const panel = (w: number, h: number, intensity: number, color: number, x: number, y: number, z: number) => {
@@ -140,6 +140,11 @@ export class ProductScene {
     return this.kit?.engravable ?? false;
   }
 
+  engravingAnchor() {
+    this.pivot.updateMatrixWorld(true);
+    return this.kit?.engravingAnchor() ?? null;
+  }
+
   set(product: Product, config: Config) {
     const variant = product.variants[config.variant] ?? product.variants[0];
     const gk = geometryKey(product.model, config.variant, config.karat);
@@ -187,8 +192,9 @@ export class ProductScene {
     const vfov = THREE.MathUtils.degToRad(this.camera.fov);
     const hfov = 2 * Math.atan(Math.tan(vfov / 2) * aspect);
     const { x, y, z } = this.half;
-    const w = this.fitMode === 'spin' ? Math.hypot(x, z) : x;
-    const d = this.fitMode === 'spin' ? w : z;
+    // 'spin' leaves room for the ±0.55 rad sway (sin 0.55 ≈ 0.52) plus some orbiting.
+    const w = this.fitMode === 'spin' ? x + 0.6 * z : x;
+    const d = this.fitMode === 'spin' ? z + 0.6 * x : z;
     this.distance = Math.max(y / Math.tan(vfov / 2), w / Math.tan(hfov / 2)) * margin + d;
     this.camera.position.set(0, 0, this.distance);
     this.camera.near = this.distance / 50;
@@ -285,22 +291,33 @@ export class LiveView {
     this.refit();
   }
 
-  /** Eases the camera closer (f < 1) or further (f > 1), within limits. */
-  zoom(f: number) {
-    const cur = this.zoomTo || this.ps.camera.position.length();
-    this.zoomTo = THREE.MathUtils.clamp(cur * f, this.ps.distance * 0.4, this.ps.distance * 1.6);
+  private target() {
+    return this.controls?.target ?? new THREE.Vector3();
   }
 
-  /** Swings the camera to look into the band so the engraving is readable. */
+  /** Eases the camera closer (f < 1) or further (f > 1), within limits. */
+  zoom(f: number) {
+    const cur = this.zoomTo || this.ps.camera.position.distanceTo(this.target());
+    this.zoomTo = THREE.MathUtils.clamp(cur * f, this.ps.distance * 0.2, this.ps.distance * 1.6);
+  }
+
+  /** Swings the camera to face the engraving and orbits around it. */
   showInside() {
     this.autoRotate = false;
     this.zoomTo = 0;
+    this.spin = 0;
     this.ps.pivot.rotation.set(0, 0, 0);
-    const d = this.ps.distance * 0.55;
-    this.ps.camera.position.set(0, -d * 0.15, -d);
-    this.ps.camera.lookAt(0, 0, 0);
-    this.controls?.target.set(0, 0, 0);
-    this.controls?.update();
+    this.swayBase = 0;
+    const a = this.ps.engravingAnchor();
+    if (!a) return;
+    const cam = this.ps.camera;
+    cam.position.copy(a.point).addScaledVector(a.dir, this.ps.distance * 0.5);
+    cam.lookAt(a.point);
+    if (this.controls) {
+      this.controls.target.copy(a.point);
+      this.controls.minDistance = this.ps.distance * 0.2;
+      this.controls.update();
+    }
   }
 
   private refit() {
@@ -344,9 +361,10 @@ export class LiveView {
       this.ps.pivot.position.x = this.tilt.x * this.ps.radius * 0.04;
     }
     if (this.zoomTo) {
-      const p = this.ps.camera.position;
-      const len = THREE.MathUtils.lerp(p.length(), this.zoomTo, 0.12);
-      p.setLength(len);
+      const t = this.target();
+      const off = this.ps.camera.position.clone().sub(t);
+      const len = THREE.MathUtils.lerp(off.length(), this.zoomTo, 0.12);
+      this.ps.camera.position.copy(t).add(off.setLength(len));
       if (Math.abs(len - this.zoomTo) < this.ps.distance * 0.002) this.zoomTo = 0;
     }
     this.controls?.update();

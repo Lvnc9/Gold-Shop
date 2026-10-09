@@ -39,9 +39,6 @@ export function CollectionsRail() {
           invalidateOnRefresh: true,
         },
       });
-      gsap.utils.toArray<HTMLElement>('.rail__panel', el).forEach((p) => {
-        gsap.fromTo(p.querySelector('.rail__name'), { xPercent: 18 }, { xPercent: -6, ease: 'none', scrollTrigger: { trigger: section.current, start: 'top top', end: () => `+=${distance()}`, scrub: true } });
-      });
     });
     const t = setTimeout(() => ScrollTrigger.refresh(), 300);
     return () => {

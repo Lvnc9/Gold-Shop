@@ -82,9 +82,20 @@
 .tool[aria-pressed="true"] {
   background: rgba(239, 231, 212, 0.12);
 }
+.tool svg {
+  flex: none;
+}
 .tool--wide {
   padding: 0 14px 0 12px;
   color: #e2b85a;
+}
+@media (max-width: 440px) {
+  .tool--wide {
+    padding: 0;
+  }
+  .tool__label {
+    display: none;
+  }
 }
 
 .product__panel {

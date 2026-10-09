@@ -125,11 +125,14 @@ export function bandEngraving(text: string): THREE.CanvasTexture {
     g.textAlign = 'center';
     g.textBaseline = 'middle';
     g.filter = 'blur(1.2px)';
-    g.fillText(text.trim(), c.width * 0.25, c.height / 2);
+    g.fillText(text.trim(), c.width / 2, c.height / 2);
   }
   const t = bumpTexture(c);
+  // Centre the text on u = 0 (the bottom of the band) and keep the canvas top toward
+  // the back edge, so it reads upright when looking into the ring from above the front.
   t.wrapS = THREE.RepeatWrapping;
-  t.repeat.x = -1; // seen from inside the band, so mirror it back
+  t.offset.x = 0.5;
+  t.flipY = false;
   return t;
 }
 

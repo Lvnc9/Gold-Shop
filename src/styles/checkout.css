@@ -218,6 +218,7 @@
   display: block;
 }
 .order__status svg {
+  display: inline-block;
   flex: none;
   vertical-align: -4px;
   margin-right: 4px;

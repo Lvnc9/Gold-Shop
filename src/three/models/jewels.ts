@@ -14,7 +14,7 @@ export function bangle(o: BuildOptions): Kit {
   band.scale(1.12, 1, 1);
   kit.goldMesh(band);
   engravedLiner(kit, r, w, o.engraving, { oval: 1.12 });
-  kit.root.rotation.set(-1.0, 0.25, 0.15);
+  kit.root.rotation.set(-0.62, 0.32, 0.22);
   return kit;
 }
 
