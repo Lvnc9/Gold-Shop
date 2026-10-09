@@ -228,6 +228,9 @@ export class LiveView {
   private pointer = new THREE.Vector2();
   private tilt = new THREE.Vector2();
   private spin = 0;
+  private zoomTo = 0;
+  private clock = 0;
+  private swayBase = 0;
   private reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   private onPointer = (e: PointerEvent) => {
     const r = this.canvas.getBoundingClientRect();
@@ -249,7 +252,8 @@ export class LiveView {
       this.controls.dampingFactor = 0.08;
       this.controls.enablePan = false;
       this.controls.rotateSpeed = 0.8;
-      this.controls.zoomSpeed = 0.7;
+      this.controls.enableZoom = false; // wheel scrolls the page; zoom is on buttons
+
       this.controls.addEventListener('start', () => (this.autoRotate = false));
     }
     if (opts.parallax) window.addEventListener('pointermove', this.onPointer, { passive: true });
@@ -266,19 +270,31 @@ export class LiveView {
     this.ps.set(product, config);
     if (this.ps.radius !== before) {
       this.ps.pivot.rotation.set(0, 0, 0);
+      this.swayBase = 0;
+      this.clock = 0;
       this.refit();
     }
   }
 
   /** Puts the camera back to the framed default. */
   reset() {
+    this.zoomTo = 0;
+    this.swayBase = 0;
+    this.clock = 0;
     this.ps.pivot.rotation.set(0, 0, 0);
     this.refit();
+  }
+
+  /** Eases the camera closer (f < 1) or further (f > 1), within limits. */
+  zoom(f: number) {
+    const cur = this.zoomTo || this.ps.camera.position.length();
+    this.zoomTo = THREE.MathUtils.clamp(cur * f, this.ps.distance * 0.4, this.ps.distance * 1.6);
   }
 
   /** Swings the camera to look into the band so the engraving is readable. */
   showInside() {
     this.autoRotate = false;
+    this.zoomTo = 0;
     this.ps.pivot.rotation.set(0, 0, 0);
     const d = this.ps.distance * 0.55;
     this.ps.camera.position.set(0, -d * 0.15, -d);
@@ -308,9 +324,17 @@ export class LiveView {
   }
 
   frame(dt: number) {
-    if (this.autoRotate) this.ps.pivot.rotation.y += dt * 0.32;
+    // Auto motion is a slow sway rather than a full turn, so chains never show their edge.
+    if (this.autoRotate) {
+      this.clock += dt;
+      this.ps.pivot.rotation.y = this.swayBase + Math.sin(this.clock * 0.45) * 0.55;
+    } else {
+      this.swayBase = this.ps.pivot.rotation.y;
+      this.clock = 0;
+    }
     if (this.spin) {
-      this.ps.pivot.rotation.y += this.spin * dt;
+      this.swayBase += this.spin * dt;
+      if (!this.autoRotate) this.ps.pivot.rotation.y += this.spin * dt;
       this.spin *= 0.94;
       if (Math.abs(this.spin) < 0.01) this.spin = 0;
     }
@@ -318,6 +342,12 @@ export class LiveView {
       this.tilt.lerp(this.pointer, 0.05);
       this.ps.pivot.rotation.x = this.tilt.y * 0.18;
       this.ps.pivot.position.x = this.tilt.x * this.ps.radius * 0.04;
+    }
+    if (this.zoomTo) {
+      const p = this.ps.camera.position;
+      const len = THREE.MathUtils.lerp(p.length(), this.zoomTo, 0.12);
+      p.setLength(len);
+      if (Math.abs(len - this.zoomTo) < this.ps.distance * 0.002) this.zoomTo = 0;
     }
     this.controls?.update();
     this.stage.draw(this.ps.scene, this.ps.camera, this.w, this.h, this.ctx);

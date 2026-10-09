@@ -6,13 +6,14 @@ import type { Category } from './domain/types';
  * (letters, digits, . _ ~ -), so every route is one token:
  *   ''            home
  *   #shop         catalog          #shop-rings  catalog filtered by category
+ *   #saved        catalog filtered to the wishlist
  *   #p-<slug>     product page
  *   #checkout     checkout         #order       confirmation of the last order
  *   #ledger       owner-only order list
  */
 export type Route =
   | { name: 'home'; anchor?: string }
-  | { name: 'shop'; category?: Category }
+  | { name: 'shop'; category?: Category; saved?: boolean }
   | { name: 'product'; slug: string }
   | { name: 'checkout' }
   | { name: 'order' }
@@ -23,6 +24,7 @@ const CATS = ['rings', 'necklaces', 'bracelets', 'earrings', 'bullion'];
 export function parse(hash: string): Route {
   const h = hash.replace(/^#/, '');
   if (h === 'shop') return { name: 'shop' };
+  if (h === 'saved') return { name: 'shop', saved: true };
   if (h.startsWith('shop-') && CATS.includes(h.slice(5))) return { name: 'shop', category: h.slice(5) as Category };
   if (h.startsWith('p-')) return { name: 'product', slug: h.slice(2) };
   if (h === 'checkout' || h === 'order' || h === 'ledger') return { name: h };

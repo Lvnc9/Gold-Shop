@@ -1,0 +1,320 @@
+.checkout {
+  padding-block: clamp(28px, 5vw, 56px) 0;
+}
+.checkout h1 {
+  font-size: var(--step-4);
+  font-weight: 400;
+  margin-block: 10px 28px;
+}
+.checkout--empty {
+  display: grid;
+  justify-items: start;
+  gap: 14px;
+  min-height: 50vh;
+  align-content: center;
+}
+.checkout--empty h1 {
+  margin: 0;
+}
+.checkout__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: clamp(20px, 4vw, 56px);
+  align-items: start;
+}
+.checkout__form {
+  display: grid;
+  gap: 28px;
+  min-width: 0;
+}
+.co-section {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+}
+.co-section legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  font-family: var(--font-display);
+  font-size: var(--step-2);
+  padding: 0;
+}
+.input-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.input {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+.input label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+.input.has-error input {
+  box-shadow: inset 0 0 0 2px var(--danger);
+}
+.input__err {
+  font-size: 0.78rem;
+  color: var(--danger);
+}
+.input textarea {
+  resize: vertical;
+  min-height: 84px;
+}
+.ship-opts {
+  display: grid;
+  gap: 10px;
+}
+.ship-opt {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  box-shadow: inset 0 0 0 1px var(--line-strong);
+  cursor: pointer;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+.ship-opt.is-on {
+  box-shadow: inset 0 0 0 2px var(--gold);
+  background: color-mix(in oklab, var(--gold-bright) 7%, transparent);
+}
+.ship-opt input {
+  accent-color: var(--gold-bright);
+  width: 18px;
+  height: 18px;
+}
+.ship-opt svg {
+  color: var(--gold);
+}
+.ship-opt span {
+  display: grid;
+  min-width: 0;
+}
+.ship-opt small {
+  color: var(--muted);
+}
+.co-pay {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 16px 18px;
+  border-radius: 14px;
+  background: var(--bg-raised);
+  box-shadow: inset 0 0 0 1px var(--line);
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+.co-pay svg {
+  flex: none;
+  color: var(--gold);
+}
+.checkout__summary {
+  position: sticky;
+  top: calc(env(safe-area-inset-top, 0px) + 88px);
+  display: grid;
+  gap: 12px;
+  padding: clamp(18px, 2.4vw, 28px);
+  border-radius: var(--radius-l);
+  background: var(--bg-raised);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+.checkout__summary h2 {
+  font-size: var(--step-2);
+}
+.sum-lines {
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+.sum-lines li {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  font-size: 0.9rem;
+}
+.sum-lines__img {
+  position: relative;
+}
+.sum-lines__img .pimg {
+  border-radius: 10px;
+}
+.sum-lines__img .badge {
+  top: -6px;
+  right: -6px;
+}
+.sum-lines__name {
+  font-weight: 700;
+}
+.sum-lines__meta {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+@media (max-width: 900px) {
+  .checkout__grid {
+    grid-template-columns: 1fr;
+  }
+  .checkout__summary {
+    position: static;
+  }
+}
+@media (max-width: 520px) {
+  .input-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* confirmation */
+.order {
+  display: grid;
+  justify-items: start;
+  gap: 22px;
+  padding-block: clamp(32px, 6vw, 72px) 0;
+  max-width: 760px;
+}
+.order__seal {
+  width: 96px;
+  height: 96px;
+  fill: none;
+  stroke: var(--gold);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.order__head h1 {
+  font-size: var(--step-4);
+  font-weight: 400;
+  margin-top: 8px;
+}
+.order__code {
+  margin-top: 8px;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+}
+.order__status {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 16px 18px;
+  border-radius: 14px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.order__status p {
+  display: block;
+}
+.order__status svg {
+  flex: none;
+  vertical-align: -4px;
+  margin-right: 4px;
+}
+.order__status--ok {
+  background: color-mix(in oklab, var(--ok) 12%, transparent);
+  color: var(--ink);
+}
+.order__status--ok svg {
+  color: var(--ok);
+}
+.order__status--warn {
+  background: color-mix(in oklab, var(--gold-bright) 14%, transparent);
+}
+.order__status--warn svg {
+  color: var(--gold);
+}
+.copy-inline {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  word-break: break-all;
+}
+.order__card {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  padding: 20px 22px;
+  border-radius: var(--radius-m);
+  background: var(--bg-raised);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+.order__lines {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+.order__lines li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.order__lines small {
+  display: block;
+  color: var(--muted);
+}
+.order__text {
+  width: 100%;
+}
+.order__text summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+.order__text pre {
+  overflow-x: auto;
+  padding: 16px;
+  border-radius: 12px;
+  background: var(--bg-raised);
+  box-shadow: inset 0 0 0 1px var(--line);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  white-space: pre-wrap;
+  user-select: all;
+}
+
+/* ledger */
+.ledger {
+  padding-block: clamp(28px, 5vw, 56px) 0;
+}
+.table-scroll {
+  overflow-x: auto;
+}
+.ledger__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  min-width: 720px;
+}
+.ledger__table th {
+  text-align: left;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line-strong);
+}
+.ledger__table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+.ledger__table small {
+  display: block;
+  color: var(--muted);
+}

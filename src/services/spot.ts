@@ -6,7 +6,10 @@ import { getDb } from './runtime';
  * owner (or by Claude via ArtifactData). The page cannot fetch market data itself (CSP),
  * so without that doc it keeps the built-in price from state/app.ts.
  */
+let watching = false;
 export async function watchSpot() {
+  if (watching) return;
+  watching = true;
   const db = await getDb();
   if (!db) return;
   db.doc('config/spot').onSnapshot(
