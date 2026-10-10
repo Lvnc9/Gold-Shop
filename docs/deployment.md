@@ -20,7 +20,8 @@ Publish `dist/artifact.html` with Claude's Artifact tool (see `.claude/commands/
 - Icon: `ring`. Capabilities: `db` (rules in `data-model.md`) and `user`.
 
 ## Source
-- GitHub (private): https://github.com/Lvnc9/Gold-Shop — branch `main`.
+- GitHub (public since 2026-10-10): https://github.com/Lvnc9/Gold-Shop — branch `main`. `.claude/` is git-ignored.
+- `docs/media/`: the README teaser (`teaser.mp4`, `teaser-preview.gif`) and feature GIFs, recorded from the production build.
 
 ## Local
 ```bash
@@ -28,3 +29,7 @@ npm run dev       # http://localhost:5173
 npm run preview   # serves dist/ on http://localhost:4173
 ```
 Outside claude.ai the DB is absent, so checkout always shows the copy-summary fallback.
+
+## Static hosting (no DB)
+`dist/index.html` is a complete page and runs on any static host (Netlify, Vercel, GitHub Pages, S3). Routes are hash-only,
+so no rewrites are needed. Orders fall back to the copyable summary.

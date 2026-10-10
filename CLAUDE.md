@@ -6,7 +6,8 @@ A visually led gold-jewellery ordering site (English, USD). Every product image 
 
 1. **Do not crawl the repository.** Before changing anything, read only:
    - this file,
-   - `.claude/` (`project-map.md`, `conventions.md`, `commands/`),
+   - `.claude/` (`project-map.md`, `conventions.md`, `commands/`) — local only, git-ignored and not on GitHub;
+     if it is missing, the same information lives in `docs/architecture.md` and `docs/design-system.md`,
    - `docs/` (start with `docs/architecture.md`, then the doc for the area you touch).
    Open source files only when `.claude/project-map.md` points you to them for the task at hand.
 2. **Keep the docs true.** Any architectural change (new module or folder, new dependency, new data path or DB rule, routing change, build or publish step, rendering pipeline change) must, in the same change:
@@ -19,7 +20,7 @@ A visually led gold-jewellery ordering site (English, USD). Every product image 
 
 ## Git workflow
 
-- Branch `main`, remote `origin` = private GitHub repo (see `docs/deployment.md`).
+- Branch `main`, remote `origin` = public GitHub repo (see `docs/deployment.md`). `.claude/` is git-ignored.
 - **Commit after every self-contained change**, never batch unrelated work. Use Conventional Commits:
   `feat(scope): …`, `fix(scope): …`, `docs: …`, `refactor(scope): …`, `chore: …`, `style(scope): …`.
   Scopes match top-level areas: `three`, `domain`, `ui`, `motion`, `services`, `build`, `docs`.
@@ -36,7 +37,8 @@ npm run preview      # serve dist/ on :4173
 ```
 
 Publish: run `/publish` (see `.claude/commands/publish.md`).
-Live: https://claude.ai/artifact/JJGTBHeupW18JKGitJyCfo (details in `docs/deployment.md`). Source: https://github.com/Lvnc9/Gold-Shop (private).
+Live: https://claude.ai/artifact/JJGTBHeupW18JKGitJyCfo (details in `docs/deployment.md`). Source: https://github.com/Lvnc9/Gold-Shop (public).
+README media (teaser + GIFs, recorded from the real build) live in `docs/media/`.
 
 ## Stack (one line each)
 
