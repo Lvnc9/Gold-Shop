@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Money } from '../components/ui/Money';
 import { ProductImage } from '../components/ui/ProductImage';
 import { configSummary, money } from '../domain/format';
+import type { CartLine } from '../domain/types';
 import { price } from '../domain/pricing';
 import { bySlug } from '../domain/products';
 import { useSpot } from '../hooks/useSpot';
@@ -31,7 +32,10 @@ function validate(c: Customer): Errors {
 
 export function CheckoutPage() {
   const spot = useSpot();
-  const lines = useStore(cartStore);
+  const cart = useStore(cartStore);
+  // Lines as placed: the cart is cleared before the page leaves, and the exit animation must not flash "bag is empty".
+  const [placed, setPlaced] = useState<CartLine[] | null>(null);
+  const lines = placed ?? cart;
   const [customer, setCustomer] = useState<Customer>(() => ({ ...EMPTY, ...load<Partial<Customer>>('solenne.customer', {}) }));
   const [delivery, setDelivery] = useState<'insured' | 'express'>('insured');
   const [errors, setErrors] = useState<Errors>({});
@@ -85,6 +89,7 @@ export function CheckoutPage() {
     const result = await saveOrder(order);
     uiStore.set((s) => ({ ...s, lastOrder: order }));
     save('solenne.lastOrder', { order, result });
+    setPlaced(lines);
     clearCart();
     setBusy(false);
     go('#order');
