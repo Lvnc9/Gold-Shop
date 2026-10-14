@@ -2,6 +2,12 @@
 
 ## 2026-10-15
 - `npm run export:catalog` writes the catalogue and a golden price table to `backend/catalog/fixtures/` for the backend.
+- Self-hosted API build (ADR-0004): Django/DRF backend (`backend/`) with server-side re-pricing, idempotent orders,
+  owner JWT sign-in, cursor-paged ledger, spot ETags; Kafka request/order/spot events with a rollup consumer and
+  `/monitor/stats/`; nginx gateway (`infra/nginx/`) with rate limits, JSON logs and load balancing over 3 replicas;
+  `docker-compose.yml`.
+- Frontend: `#backend` alias selects the Artifact DB or the REST adapter at build time; `#ledger` gains sign-in,
+  status filter and live stats in the API build; checkout handles a re-priced bag.
 
 ## 2026-10-10
 - README rewritten as a product page: 60 s teaser with an original soundtrack, nine GIFs recorded from the build, deploy guide.
