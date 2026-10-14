@@ -17,4 +17,5 @@ One file per decision: `NNNN-short-title.md`, numbered in order, never renumbere
 |---|---|---|
 | [0001](0001-stack.md) | Frontend stack | Accepted |
 | [0002](0002-procedural-3d.md) | Procedural real-time 3D instead of photographs | Accepted |
-| [0003](0003-artifact-hosting-and-db-orders.md) | Artifact hosting, DB-backed orders and fallback | Accepted |
+| [0003](0003-artifact-hosting-and-db-orders.md) | Artifact hosting, DB-backed orders and fallback | Accepted (Artifact build) |
+| [0004](0004-self-hosted-django-backend.md) | Self-hosted Django backend with nginx and Kafka | Accepted |

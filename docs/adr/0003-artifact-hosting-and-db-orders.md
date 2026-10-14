@@ -26,3 +26,5 @@ order code, a copyable summary and the concierge address.
   to a host with a backend.
 - No card payments on the site; payment is arranged after confirmation (stated at checkout).
 - The owner sees orders at `#ledger`; Claude can read them with ArtifactData.
+- 2026-10-15: still the Artifact build's storage. The self-hosted build uses the Django API instead
+  ([ADR-0004](0004-self-hosted-django-backend.md)).
