@@ -26,7 +26,7 @@ Spot default: **$133.23/g** (Oct 6, 2026 close, $4,143.94/ozt). Overridden live 
 ## Shipping
 Insured courier free from $500 subtotal, else $25; express $45.
 
-## Artifact DB
+## Artifact DB (Artifact build)
 Capabilities declared at publish:
 ```json
 {
@@ -59,5 +59,20 @@ checkout work for everyone.
 Owner (or Claude via ArtifactData `set`): `config/spot` → `{ "perGram": 134.10, "asOf": "2026-10-12" }`.
 All open pages reprice live.
 
+## Postgres (API build)
+The Django models mirror the shapes above; the API serialises them back to the same camelCase `OrderRecord`.
+| Table | Columns (main) | Notes |
+|---|---|---|
+| `catalog_product` | `slug` PK, `name`, `category`, `data` JSON | loaded from `backend/catalog/fixtures/catalog.json` by `seed_catalog` |
+| `catalog_spotprice` | `per_gram` decimal(8,2), `as_of`, `created_at`, `created_by` | append-only; newest row is live; cached 5 min in Redis |
+| `orders_order` | `code` unique, customer fields, `delivery`, `spot_per_gram`, `spot_as_of`, `subtotal`, `shipping`, `total` (whole USD), `status`, `payload_hash`, `created_at` | indexes `(-created_at, -id)`, `(status, -created_at)` |
+| `orders_orderline` | `order` FK, `position`, `slug`, `name`, `summary`, `qty`, `unit`, `config` JSON | unique `(order, position)` |
+| `monitoring_metricbucket` | `minute`, `method`, `route`, `count`, `errors`, `client_errors`, `total_ms`, `max_ms` | unique `(minute, method, route)`; written by the Kafka consumer |
+| `monitoring_orderevent` | `ts`, `type`, `code`, `total`, `payload` | `order.created` / `spot.updated` as consumed |
+
+Order `status`: `received` → `confirmed` | `cancelled`; `confirmed` → `shipped` | `cancelled`. The server re-prices
+every order (see `backend.md`), so a stored total is always the server's.
+
 ## Local storage keys
-`solenne.cart`, `solenne.wish`, `solenne.customer` (contact details for the next checkout), `solenne.lastOrder`.
+`solenne.cart`, `solenne.wish`, `solenne.customer` (contact details for the next checkout), `solenne.lastOrder`,
+`solenne.ownerSession` (API build: an owner signed in on this browser, so try a silent token refresh).

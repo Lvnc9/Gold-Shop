@@ -1,5 +1,5 @@
 import type { Config } from '../domain/types';
-import { getDb, getUser } from './runtime';
+import { backend } from '#backend';
 
 export interface Customer {
   name: string;
@@ -32,10 +32,14 @@ export interface OrderRecord {
   subtotal: number;
   shipping: number;
   total: number;
-  status: 'received';
+  status: 'received' | 'confirmed' | 'shipped' | 'cancelled';
 }
 
-export type SaveResult = { saved: true } | { saved: false; reason: 'offline' | 'signed-out' | 'read-only' | 'error' };
+export type SaveResult =
+  | { saved: true; order?: OrderRecord }
+  | { saved: false; reason: 'offline' | 'signed-out' | 'read-only' | 'error' | 'busy'; message?: string }
+  /** The server re-priced the bag at a newer spot; `total` is what the customer would pay now. */
+  | { saved: false; reason: 'price-changed'; total: number };
 
 const ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 export function orderCode(): string {
@@ -43,48 +47,17 @@ export function orderCode(): string {
   return 'SLN-' + Array.from(bytes, (b) => ALPHABET[b % ALPHABET.length]).join('');
 }
 
-/**
- * Saves to `orders/<viewer id>/items/<code>` and bumps the `orders/<viewer id>` index doc
- * (so the owner can list customers). Rules: customers write only their own subtree; only
- * the owner reads across customers. See docs/data-model.md.
- */
-export async function saveOrder(order: OrderRecord): Promise<SaveResult> {
-  const [db, user] = await Promise.all([getDb(), getUser()]);
-  if (!db || !user) return { saved: false, reason: db ? 'signed-out' : 'offline' };
-  const id = await user.id();
-  if (!id) return { saved: false, reason: 'signed-out' };
-  try {
-    await db.doc(`orders/${id}/items/${order.code}`).set(order as unknown as Record<string, unknown>);
-    await db.doc(`orders/${id}`).set({ lastOrder: order.code, lastOrderAt: order.createdAt, name: order.customer.name });
-    return { saved: true };
-  } catch (e) {
-    const code = (e as { code?: string })?.code;
-    return { saved: false, reason: code === 'invalid_argument' || code === 'not_granted' ? 'read-only' : 'error' };
-  }
-}
-
-/** Owner-only: every order, newest first. */
-export async function listAllOrders(): Promise<OrderRecord[]> {
-  const db = await getDb();
-  if (!db) return [];
-  const customers = await db.collection('orders').get();
-  const all: OrderRecord[] = [];
-  await Promise.all(
-    customers.docs.map(async (c) => {
-      const items = await db.collection(`orders/${c.id}/items`).get();
-      items.docs.forEach((d) => {
-        const data = d.data();
-        if (data) all.push(data as unknown as OrderRecord);
-      });
-    }),
-  );
-  return all.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
-}
-
-export async function viewerIsOwner(): Promise<boolean> {
-  const user = await getUser();
-  return user ? user.isOwner().catch(() => false) : false;
-}
+// Storage is chosen at build time (see services/backend/types.ts).
+export const saveOrder = (order: OrderRecord) => backend.saveOrder(order);
+export const listAllOrders = () => backend.listAllOrders();
+export const viewerIsOwner = () => backend.viewerIsOwner();
+/** Owner session controls; sign-in only exists in the self-hosted API build. */
+export const owner = {
+  canSignIn: backend.ownerSignIn,
+  signIn: backend.signIn,
+  signOut: backend.signOut,
+  stats: backend.monitorStats,
+};
 
 export function orderText(o: OrderRecord): string {
   const lines = o.lines.map((l) => `• ${l.qty} × ${l.name} (${l.summary}) — $${(l.unit * l.qty).toLocaleString('en-US')}`);

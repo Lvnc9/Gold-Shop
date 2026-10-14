@@ -13,7 +13,8 @@
     "isolatedModules": true,
     "resolveJsonModule": true,
     "allowImportingTsExtensions": false,
-    "types": ["vite/client"]
+    "types": ["vite/client"],
+    "paths": { "#backend": ["./src/services/backend/artifact.ts"] }
   },
   "include": ["src"]
 }

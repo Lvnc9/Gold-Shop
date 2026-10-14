@@ -319,3 +319,46 @@
   display: block;
   color: var(--muted);
 }
+.ledger__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.ledger__stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1px;
+  margin: 0 0 24px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+}
+.ledger__stats > div {
+  padding: 14px 16px;
+  background: var(--bg);
+}
+.ledger__stats dt {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.ledger__stats dd {
+  margin: 6px 0 0;
+  font-size: var(--step-1);
+  color: var(--ink);
+}
+.ledger__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.ledger__signin form {
+  display: grid;
+  gap: 14px;
+  width: min(360px, 100%);
+  text-align: left;
+}

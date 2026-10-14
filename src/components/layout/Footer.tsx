@@ -2,7 +2,7 @@ import { Copy } from '@phosphor-icons/react';
 import { CATEGORIES } from '../../domain/products';
 import { shortDate } from '../../domain/format';
 import { useSpot } from '../../hooks/useSpot';
-import { SHOP_CONTACT } from '../../services/orders';
+import { owner, SHOP_CONTACT } from '../../services/orders';
 import { toast } from '../../state/app';
 
 export async function copyText(text: string, label = 'Copied') {
@@ -46,10 +46,10 @@ export function Footer({ isOwner }: { isOwner: boolean }) {
             <li>
               <a href="#atelier">How we make each piece</a>
             </li>
-            {isOwner && (
+            {(isOwner || owner.canSignIn) && (
               <li>
                 <a href="#ledger" className="gold-link">
-                  Order ledger
+                  {isOwner ? 'Order ledger' : 'Atelier sign-in'}
                 </a>
               </li>
             )}

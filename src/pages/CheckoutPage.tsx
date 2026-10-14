@@ -11,7 +11,7 @@ import { useSpot } from '../hooks/useSpot';
 import { go } from '../router';
 import { orderCode, saveOrder, type Customer, type OrderRecord } from '../services/orders';
 import { load, save } from '../services/storage';
-import { cartStore, cartTotals, clearCart, EXPRESS_FEE, uiStore } from '../state/app';
+import { cartStore, cartTotals, clearCart, EXPRESS_FEE, toast, uiStore } from '../state/app';
 import { useStore } from '../state/store';
 
 const EMPTY: Customer = { name: '', email: '', phone: '', address: '', city: '', postal: '', country: 'United States', notes: '' };
@@ -87,8 +87,15 @@ export function CheckoutPage() {
       status: 'received',
     };
     const result = await saveOrder(order);
-    uiStore.set((s) => ({ ...s, lastOrder: order }));
-    save('solenne.lastOrder', { order, result });
+    // The API re-prices at its own spot; the store already holds the new price, so the summary redraws.
+    if (!result.saved && (result.reason === 'price-changed' || result.reason === 'busy')) {
+      setBusy(false);
+      toast(result.reason === 'price-changed' ? `Gold moved. New total ${money(result.total)}` : 'The atelier is busy. Try again in a minute.');
+      return;
+    }
+    const placedOrder = result.saved && result.order ? result.order : order;
+    uiStore.set((s) => ({ ...s, lastOrder: placedOrder }));
+    save('solenne.lastOrder', { order: placedOrder, result });
     setPlaced(lines);
     clearCart();
     setBusy(false);

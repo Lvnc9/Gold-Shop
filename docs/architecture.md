@@ -1,8 +1,15 @@
 # Architecture
 
-Solenne is a client-only single-page storefront. It is built with Vite into **one self-contained HTML file** and
-published as a **claude.ai Artifact**. The Artifact host provides hosting, a per-artifact database (orders, spot
-price) and viewer identity; there is no other backend.
+Solenne is a single-page storefront built from one source in two ways ([ADR-0004](adr/0004-self-hosted-django-backend.md)):
+
+| Build | Command | Hosting | Orders, spot, owner |
+|---|---|---|---|
+| Artifact | `npm run build` | one self-contained HTML file published as a **claude.ai Artifact** | Artifact DB + viewer identity |
+| API | `npm run build:api` | nginx in the Docker Compose stack | Django/DRF API, Postgres, Redis, Kafka monitoring ([backend.md](backend.md)) |
+
+The `#backend` import alias (`vite.config.ts`) picks `src/services/backend/artifact.ts` or `api.ts`; only one is
+ever bundled, so the Artifact page contains no code that calls another host. The diagram shows the Artifact build;
+the API build swaps the right-hand side for `fetch('/api/v1/…')` (see `backend.md`).
 
 ```mermaid
 flowchart LR
@@ -14,7 +21,8 @@ flowchart LR
     Stage --> Mat["materials + canvas textures"]
     UI --> Domain["domain<br/>catalogue · pricing (pure)"]
     Stores --> LS[("localStorage<br/>cart, wishlist")]
-    Services["services<br/>orders · spot · runtime"] --> Runtime["window.claude.use()<br/>db · user"]
+    Services["services<br/>orders · spot"] --> Backend["#backend alias<br/>artifact.ts | api.ts"]
+    Backend --> Runtime["window.claude.use()<br/>db · user"]
   end
   Runtime --> DB[("Artifact DB<br/>orders/&lt;viewer&gt;/items/&lt;code&gt;<br/>config/spot")]
 ```
@@ -26,7 +34,8 @@ flowchart LR
 | `three` | `domain` types | React, stores |
 | `state`, `services` | `domain` | components |
 | `hooks` | `three`, `state`, `domain` | pages |
-| `components`, `pages` | everything above | create renderers, call `window.claude` directly |
+| `components`, `pages` | everything above | create renderers, call `window.claude` or `fetch` directly |
+| `services/backend/*` | `state`, `services` | be imported except through `#backend` (via `services/orders.ts`, `spot.ts`) |
 
 ## Request flow: configuring a piece
 1. `ProductPage` holds a `Config` (colour, karat, variant, size, finish, engraving) in local state.
@@ -48,14 +57,17 @@ Pages are swapped inside `AnimatePresence mode="wait"`; scroll resets after the 
 | Data | Where | Why |
 |---|---|---|
 | Cart, wishlist, last checkout details | localStorage (`solenne.*`) | per-viewer convenience; may be unavailable |
-| Orders | Artifact DB `orders/<viewer id>/items/<code>` | the shop owner must read them |
-| Spot price | Artifact DB `config/spot` | owner updates price without republishing |
+| Orders | Artifact build: Artifact DB `orders/<viewer id>/items/<code>` · API build: Postgres `orders_order` | the shop owner must read them |
+| Spot price | Artifact build: DB `config/spot` · API build: `catalog_spotprice` via `GET /api/v1/spot/` (polled, ETag) | owner updates price without redeploying |
+| Owner session | API build only: access token in memory, refresh token in an httpOnly cookie | sign-in on `#ledger` |
 
 ## Constraints that shaped this design
-See `CLAUDE.md` → "Hard constraints". Key consequences: no product photos (CSP) → procedural 3D;
-no server → orders in the Artifact DB with a copy-to-email fallback; single file → `vite-plugin-singlefile`.
+See `CLAUDE.md` → "Hard constraints" (they bind the Artifact build). Key consequences: no product photos (CSP) →
+procedural 3D; no server on the Artifact → orders in the Artifact DB with a copy-to-email fallback, and a separate
+API build for a real backend; single file → `vite-plugin-singlefile` (Artifact build only).
 
 ## Decision log
 - [ADR-0001](adr/0001-stack.md) Stack: React + Vite + motion/GSAP/Lenis + three.js + Phosphor
 - [ADR-0002](adr/0002-procedural-3d.md) Procedural real-time 3D instead of photographs
 - [ADR-0003](adr/0003-artifact-hosting-and-db-orders.md) Artifact hosting, DB-backed orders and fallback
+- [ADR-0004](adr/0004-self-hosted-django-backend.md) Self-hosted Django/DRF backend, nginx gateway, Kafka monitoring
