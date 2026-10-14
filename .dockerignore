@@ -1,0 +1,10 @@
+# Build context for infra/nginx/Dockerfile is the repo root; it only needs package files, index.html, configs and src/.
+.git
+node_modules
+dist
+dist-api
+docs
+backend
+.claude
+.env
+*.md

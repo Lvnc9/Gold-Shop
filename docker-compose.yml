@@ -1,0 +1,135 @@
+# Self-hosted Solenne: nginx gateway → 3 Django/DRF replicas → Postgres + Redis, with Kafka monitoring.
+#   cp .env.example .env    # then set the secrets
+#   docker compose up -d --build
+#   docker compose --profile tools up -d kafka-ui   # optional Kafka browser on :8081
+# Details: docs/backend.md, docs/deployment.md.
+
+x-django: &django
+  build: ./backend
+  env_file: .env
+  environment:
+    DATABASE_URL: postgres://solenne:${POSTGRES_PASSWORD}@postgres:5432/solenne
+    REDIS_URL: redis://redis:6379/0
+    KAFKA_ENABLED: "true"
+    KAFKA_BOOTSTRAP: kafka:9092
+    DJANGO_STATIC_ROOT: /app/staticfiles
+  restart: unless-stopped
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: infra/nginx/Dockerfile
+    ports:
+      - "${HTTP_PORT:-8080}:8080"
+    volumes:
+      - static:/var/www/static:ro
+      - nginx-logs:/var/log/nginx
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+  api:
+    <<: *django
+    deploy:
+      replicas: ${API_REPLICAS:-3}
+    volumes:
+      - static:/app/staticfiles
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health/', timeout=2).status != 200)"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 10s
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      redis:
+        condition: service_started
+      kafka:
+        condition: service_healthy
+
+  migrate:
+    <<: *django
+    command: ["./docker-entrypoint-migrate.sh"]
+    user: root  # writes collectstatic into the shared volume
+    volumes:
+      - static:/app/staticfiles
+    restart: "no"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  monitor:
+    <<: *django
+    command: ["python", "manage.py", "consume_metrics"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      kafka:
+        condition: service_healthy
+
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: solenne
+      POSTGRES_USER: solenne
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U solenne -d solenne"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  redis:
+    image: redis:7.4-alpine
+    command: ["redis-server", "--save", "", "--maxmemory", "128mb", "--maxmemory-policy", "allkeys-lru"]
+    restart: unless-stopped
+
+  kafka:
+    image: apache/kafka:3.9.1
+    environment:
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_LISTENERS: PLAINTEXT://:9092,CONTROLLER://:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_NUM_PARTITIONS: 3
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+      KAFKA_LOG_RETENTION_HOURS: 72
+    volumes:
+      - kafka:/var/lib/kafka/data
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/kafka/bin/kafka-broker-api-versions.sh --bootstrap-server localhost:9092 >/dev/null 2>&1"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+      start_period: 20s
+    restart: unless-stopped
+
+  kafka-ui:
+    image: provectuslabs/kafka-ui:v0.7.2
+    profiles: ["tools"]
+    ports:
+      - "8081:8080"
+    environment:
+      KAFKA_CLUSTERS_0_NAME: solenne
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:9092
+    depends_on:
+      kafka:
+        condition: service_healthy
+
+volumes:
+  pg:
+  kafka:
+  static:
+  nginx-logs:
