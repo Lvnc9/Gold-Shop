@@ -7,7 +7,8 @@
     "dev": "vite",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "build": "tsc --noEmit -p tsconfig.json && vite build && node scripts/artifactize.mjs",
-    "preview": "vite preview --port 4173"
+    "preview": "vite preview --port 4173",
+    "export:catalog": "node scripts/export-catalog.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",

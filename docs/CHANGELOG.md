@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-15
+- `npm run export:catalog` writes the catalogue and a golden price table to `backend/catalog/fixtures/` for the backend.
+
 ## 2026-10-10
 - README rewritten as a product page: 60 s teaser with an original soundtrack, nine GIFs recorded from the build, deploy guide.
 - Repository made public; `.claude/` removed from git and ignored.

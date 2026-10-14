@@ -1,0 +1,4855 @@
+{
+  "spot": 133.23,
+  "cases": [
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1388,
+      "summary": "18k yellow gold · high polish · size 4 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1423,
+      "summary": "18k yellow gold · high polish · size 4 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1395,
+      "summary": "18k yellow gold · high polish · size 5 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1430,
+      "summary": "18k yellow gold · high polish · size 5 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1403,
+      "summary": "18k yellow gold · high polish · size 6 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1438,
+      "summary": "18k yellow gold · high polish · size 6 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1410,
+      "summary": "18k yellow gold · high polish · size 7 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1445,
+      "summary": "18k yellow gold · high polish · size 7 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1417,
+      "summary": "18k yellow gold · high polish · size 8 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1452,
+      "summary": "18k yellow gold · high polish · size 8 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1424,
+      "summary": "18k yellow gold · high polish · size 9 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1459,
+      "summary": "18k yellow gold · high polish · size 9 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1431,
+      "summary": "18k yellow gold · high polish · size 10 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1466,
+      "summary": "18k yellow gold · high polish · size 10 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1439,
+      "summary": "18k yellow gold · high polish · size 11 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1474,
+      "summary": "18k yellow gold · high polish · size 11 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1446,
+      "summary": "18k yellow gold · high polish · size 12 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1481,
+      "summary": "18k yellow gold · high polish · size 12 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "4",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1452,
+      "summary": "18k yellow gold · high polish · size 4 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "4",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1487,
+      "summary": "18k yellow gold · high polish · size 4 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1461,
+      "summary": "18k yellow gold · high polish · size 5 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1496,
+      "summary": "18k yellow gold · high polish · size 5 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "6",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1470,
+      "summary": "18k yellow gold · high polish · size 6 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "6",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1505,
+      "summary": "18k yellow gold · high polish · size 6 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1480,
+      "summary": "18k yellow gold · high polish · size 7 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "7",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1515,
+      "summary": "18k yellow gold · high polish · size 7 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "8",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1489,
+      "summary": "18k yellow gold · high polish · size 8 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "8",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1524,
+      "summary": "18k yellow gold · high polish · size 8 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "9",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1498,
+      "summary": "18k yellow gold · high polish · size 9 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "9",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1533,
+      "summary": "18k yellow gold · high polish · size 9 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "10",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1508,
+      "summary": "18k yellow gold · high polish · size 10 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "10",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1543,
+      "summary": "18k yellow gold · high polish · size 10 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "11",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1517,
+      "summary": "18k yellow gold · high polish · size 11 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "11",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1552,
+      "summary": "18k yellow gold · high polish · size 11 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "12",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1526,
+      "summary": "18k yellow gold · high polish · size 12 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "12",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1561,
+      "summary": "18k yellow gold · high polish · size 12 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1340,
+      "summary": "14k yellow gold · high polish · size 4 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1375,
+      "summary": "14k yellow gold · high polish · size 4 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1346,
+      "summary": "14k yellow gold · high polish · size 5 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1381,
+      "summary": "14k yellow gold · high polish · size 5 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1351,
+      "summary": "14k yellow gold · high polish · size 6 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1386,
+      "summary": "14k yellow gold · high polish · size 6 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1357,
+      "summary": "14k yellow gold · high polish · size 7 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1392,
+      "summary": "14k yellow gold · high polish · size 7 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1363,
+      "summary": "14k yellow gold · high polish · size 8 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1398,
+      "summary": "14k yellow gold · high polish · size 8 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1368,
+      "summary": "14k yellow gold · high polish · size 9 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1403,
+      "summary": "14k yellow gold · high polish · size 9 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1374,
+      "summary": "14k yellow gold · high polish · size 10 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1409,
+      "summary": "14k yellow gold · high polish · size 10 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1380,
+      "summary": "14k yellow gold · high polish · size 11 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1415,
+      "summary": "14k yellow gold · high polish · size 11 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1385,
+      "summary": "14k yellow gold · high polish · size 12 · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1420,
+      "summary": "14k yellow gold · high polish · size 12 · engraved “AB” · 1.8 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "4",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1390,
+      "summary": "14k yellow gold · high polish · size 4 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "4",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1425,
+      "summary": "14k yellow gold · high polish · size 4 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1397,
+      "summary": "14k yellow gold · high polish · size 5 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1432,
+      "summary": "14k yellow gold · high polish · size 5 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "6",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1404,
+      "summary": "14k yellow gold · high polish · size 6 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "6",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1439,
+      "summary": "14k yellow gold · high polish · size 6 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1412,
+      "summary": "14k yellow gold · high polish · size 7 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "7",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1447,
+      "summary": "14k yellow gold · high polish · size 7 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "8",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1419,
+      "summary": "14k yellow gold · high polish · size 8 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "8",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1454,
+      "summary": "14k yellow gold · high polish · size 8 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "9",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1426,
+      "summary": "14k yellow gold · high polish · size 9 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "9",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1461,
+      "summary": "14k yellow gold · high polish · size 9 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "10",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1433,
+      "summary": "14k yellow gold · high polish · size 10 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "10",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1468,
+      "summary": "14k yellow gold · high polish · size 10 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "11",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1441,
+      "summary": "14k yellow gold · high polish · size 11 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "11",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1476,
+      "summary": "14k yellow gold · high polish · size 11 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "12",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1448,
+      "summary": "14k yellow gold · high polish · size 12 · 2.2 mm band"
+    },
+    {
+      "slug": "aurora-solitaire",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "12",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1483,
+      "summary": "14k yellow gold · high polish · size 12 · engraved “AB” · 2.2 mm band"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1127,
+      "summary": "22k yellow gold · high polish · size 4 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1162,
+      "summary": "22k yellow gold · high polish · size 4 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1164,
+      "summary": "22k yellow gold · high polish · size 5 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1199,
+      "summary": "22k yellow gold · high polish · size 5 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1201,
+      "summary": "22k yellow gold · high polish · size 6 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1236,
+      "summary": "22k yellow gold · high polish · size 6 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1238,
+      "summary": "22k yellow gold · high polish · size 7 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1273,
+      "summary": "22k yellow gold · high polish · size 7 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1276,
+      "summary": "22k yellow gold · high polish · size 8 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1311,
+      "summary": "22k yellow gold · high polish · size 8 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1313,
+      "summary": "22k yellow gold · high polish · size 9 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1348,
+      "summary": "22k yellow gold · high polish · size 9 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1350,
+      "summary": "22k yellow gold · high polish · size 10 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1385,
+      "summary": "22k yellow gold · high polish · size 10 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1387,
+      "summary": "22k yellow gold · high polish · size 11 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1422,
+      "summary": "22k yellow gold · high polish · size 11 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1424,
+      "summary": "22k yellow gold · high polish · size 12 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1459,
+      "summary": "22k yellow gold · high polish · size 12 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "4",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1625,
+      "summary": "22k yellow gold · high polish · size 4 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "4",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1660,
+      "summary": "22k yellow gold · high polish · size 4 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1679,
+      "summary": "22k yellow gold · high polish · size 5 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1714,
+      "summary": "22k yellow gold · high polish · size 5 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "6",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1732,
+      "summary": "22k yellow gold · high polish · size 6 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "6",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1767,
+      "summary": "22k yellow gold · high polish · size 6 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1786,
+      "summary": "22k yellow gold · high polish · size 7 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "7",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1821,
+      "summary": "22k yellow gold · high polish · size 7 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "8",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1839,
+      "summary": "22k yellow gold · high polish · size 8 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "8",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1874,
+      "summary": "22k yellow gold · high polish · size 8 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "9",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1893,
+      "summary": "22k yellow gold · high polish · size 9 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "9",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1928,
+      "summary": "22k yellow gold · high polish · size 9 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "10",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1946,
+      "summary": "22k yellow gold · high polish · size 10 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "10",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1981,
+      "summary": "22k yellow gold · high polish · size 10 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "11",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2000,
+      "summary": "22k yellow gold · high polish · size 11 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "11",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 2035,
+      "summary": "22k yellow gold · high polish · size 11 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "12",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2054,
+      "summary": "22k yellow gold · high polish · size 12 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "12",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 2089,
+      "summary": "22k yellow gold · high polish · size 12 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 923,
+      "summary": "18k yellow gold · high polish · size 4 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 958,
+      "summary": "18k yellow gold · high polish · size 4 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 953,
+      "summary": "18k yellow gold · high polish · size 5 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 988,
+      "summary": "18k yellow gold · high polish · size 5 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 984,
+      "summary": "18k yellow gold · high polish · size 6 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1019,
+      "summary": "18k yellow gold · high polish · size 6 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1014,
+      "summary": "18k yellow gold · high polish · size 7 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1049,
+      "summary": "18k yellow gold · high polish · size 7 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1044,
+      "summary": "18k yellow gold · high polish · size 8 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1079,
+      "summary": "18k yellow gold · high polish · size 8 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1075,
+      "summary": "18k yellow gold · high polish · size 9 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1110,
+      "summary": "18k yellow gold · high polish · size 9 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1105,
+      "summary": "18k yellow gold · high polish · size 10 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1140,
+      "summary": "18k yellow gold · high polish · size 10 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1136,
+      "summary": "18k yellow gold · high polish · size 11 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1171,
+      "summary": "18k yellow gold · high polish · size 11 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1166,
+      "summary": "18k yellow gold · high polish · size 12 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1201,
+      "summary": "18k yellow gold · high polish · size 12 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "4",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1330,
+      "summary": "18k yellow gold · high polish · size 4 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "4",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1365,
+      "summary": "18k yellow gold · high polish · size 4 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1374,
+      "summary": "18k yellow gold · high polish · size 5 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1409,
+      "summary": "18k yellow gold · high polish · size 5 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "6",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1418,
+      "summary": "18k yellow gold · high polish · size 6 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "6",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1453,
+      "summary": "18k yellow gold · high polish · size 6 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1462,
+      "summary": "18k yellow gold · high polish · size 7 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "7",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1497,
+      "summary": "18k yellow gold · high polish · size 7 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "8",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1506,
+      "summary": "18k yellow gold · high polish · size 8 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "8",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1541,
+      "summary": "18k yellow gold · high polish · size 8 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "9",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1550,
+      "summary": "18k yellow gold · high polish · size 9 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "9",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1585,
+      "summary": "18k yellow gold · high polish · size 9 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "10",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1594,
+      "summary": "18k yellow gold · high polish · size 10 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "10",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1629,
+      "summary": "18k yellow gold · high polish · size 10 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "11",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1638,
+      "summary": "18k yellow gold · high polish · size 11 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "11",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1673,
+      "summary": "18k yellow gold · high polish · size 11 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "12",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1681,
+      "summary": "18k yellow gold · high polish · size 12 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "12",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1716,
+      "summary": "18k yellow gold · high polish · size 12 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 720,
+      "summary": "14k yellow gold · high polish · size 4 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 755,
+      "summary": "14k yellow gold · high polish · size 4 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 743,
+      "summary": "14k yellow gold · high polish · size 5 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 778,
+      "summary": "14k yellow gold · high polish · size 5 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 767,
+      "summary": "14k yellow gold · high polish · size 6 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 802,
+      "summary": "14k yellow gold · high polish · size 6 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 791,
+      "summary": "14k yellow gold · high polish · size 7 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 826,
+      "summary": "14k yellow gold · high polish · size 7 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 815,
+      "summary": "14k yellow gold · high polish · size 8 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 850,
+      "summary": "14k yellow gold · high polish · size 8 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 838,
+      "summary": "14k yellow gold · high polish · size 9 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 873,
+      "summary": "14k yellow gold · high polish · size 9 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 862,
+      "summary": "14k yellow gold · high polish · size 10 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 897,
+      "summary": "14k yellow gold · high polish · size 10 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 886,
+      "summary": "14k yellow gold · high polish · size 11 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 921,
+      "summary": "14k yellow gold · high polish · size 11 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 910,
+      "summary": "14k yellow gold · high polish · size 12 · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 945,
+      "summary": "14k yellow gold · high polish · size 12 · engraved “AB” · Classic 12 × 10 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "4",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1038,
+      "summary": "14k yellow gold · high polish · size 4 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "4",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1073,
+      "summary": "14k yellow gold · high polish · size 4 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1072,
+      "summary": "14k yellow gold · high polish · size 5 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1107,
+      "summary": "14k yellow gold · high polish · size 5 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "6",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1106,
+      "summary": "14k yellow gold · high polish · size 6 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "6",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1141,
+      "summary": "14k yellow gold · high polish · size 6 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1140,
+      "summary": "14k yellow gold · high polish · size 7 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "7",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1175,
+      "summary": "14k yellow gold · high polish · size 7 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "8",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1175,
+      "summary": "14k yellow gold · high polish · size 8 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "8",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1210,
+      "summary": "14k yellow gold · high polish · size 8 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "9",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1209,
+      "summary": "14k yellow gold · high polish · size 9 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "9",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1244,
+      "summary": "14k yellow gold · high polish · size 9 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "10",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1243,
+      "summary": "14k yellow gold · high polish · size 10 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "10",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1278,
+      "summary": "14k yellow gold · high polish · size 10 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "11",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1277,
+      "summary": "14k yellow gold · high polish · size 11 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "11",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1312,
+      "summary": "14k yellow gold · high polish · size 11 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "12",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1311,
+      "summary": "14k yellow gold · high polish · size 12 · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "heritage-signet",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "12",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1346,
+      "summary": "14k yellow gold · high polish · size 12 · engraved “AB” · Grand 15 × 12 mm"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1861,
+      "summary": "18k white gold · high polish · size 4 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1896,
+      "summary": "18k white gold · high polish · size 4 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1871,
+      "summary": "18k white gold · high polish · size 5 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1906,
+      "summary": "18k white gold · high polish · size 5 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1880,
+      "summary": "18k white gold · high polish · size 6 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1915,
+      "summary": "18k white gold · high polish · size 6 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1890,
+      "summary": "18k white gold · high polish · size 7 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1925,
+      "summary": "18k white gold · high polish · size 7 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1899,
+      "summary": "18k white gold · high polish · size 8 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1934,
+      "summary": "18k white gold · high polish · size 8 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1909,
+      "summary": "18k white gold · high polish · size 9 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1944,
+      "summary": "18k white gold · high polish · size 9 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1919,
+      "summary": "18k white gold · high polish · size 10 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1954,
+      "summary": "18k white gold · high polish · size 10 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1928,
+      "summary": "18k white gold · high polish · size 11 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1963,
+      "summary": "18k white gold · high polish · size 11 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1938,
+      "summary": "18k white gold · high polish · size 12 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1973,
+      "summary": "18k white gold · high polish · size 12 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1797,
+      "summary": "14k white gold · high polish · size 4 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "4",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1832,
+      "summary": "14k white gold · high polish · size 4 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1804,
+      "summary": "14k white gold · high polish · size 5 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1839,
+      "summary": "14k white gold · high polish · size 5 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1812,
+      "summary": "14k white gold · high polish · size 6 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "6",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1847,
+      "summary": "14k white gold · high polish · size 6 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1819,
+      "summary": "14k white gold · high polish · size 7 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1854,
+      "summary": "14k white gold · high polish · size 7 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1827,
+      "summary": "14k white gold · high polish · size 8 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "8",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1862,
+      "summary": "14k white gold · high polish · size 8 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1834,
+      "summary": "14k white gold · high polish · size 9 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "9",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1869,
+      "summary": "14k white gold · high polish · size 9 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1842,
+      "summary": "14k white gold · high polish · size 10 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "10",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1877,
+      "summary": "14k white gold · high polish · size 10 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1849,
+      "summary": "14k white gold · high polish · size 11 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "11",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1884,
+      "summary": "14k white gold · high polish · size 11 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1857,
+      "summary": "14k white gold · high polish · size 12 · 2.6 mm band"
+    },
+    {
+      "slug": "halo-eternity",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "12",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1892,
+      "summary": "14k white gold · high polish · size 12 · engraved “AB” · 2.6 mm band"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1612,
+      "summary": "18k yellow gold · high polish · size 16 · 5 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1813,
+      "summary": "18k yellow gold · high polish · size 18 · 5 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2014,
+      "summary": "18k yellow gold · high polish · size 20 · 5 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2216,
+      "summary": "18k yellow gold · high polish · size 22 · 5 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2417,
+      "summary": "18k yellow gold · high polish · size 24 · 5 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2865,
+      "summary": "18k yellow gold · high polish · size 16 · 7 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3223,
+      "summary": "18k yellow gold · high polish · size 18 · 7 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3581,
+      "summary": "18k yellow gold · high polish · size 20 · 7 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3939,
+      "summary": "18k yellow gold · high polish · size 22 · 7 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 4297,
+      "summary": "18k yellow gold · high polish · size 24 · 7 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 2,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 4924,
+      "summary": "18k yellow gold · high polish · size 16 · 9 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 2,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 5540,
+      "summary": "18k yellow gold · high polish · size 18 · 9 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 2,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 6155,
+      "summary": "18k yellow gold · high polish · size 20 · 9 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 2,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 6771,
+      "summary": "18k yellow gold · high polish · size 22 · 9 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 2,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 7386,
+      "summary": "18k yellow gold · high polish · size 24 · 9 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1257,
+      "summary": "14k yellow gold · high polish · size 16 · 5 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1414,
+      "summary": "14k yellow gold · high polish · size 18 · 5 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1571,
+      "summary": "14k yellow gold · high polish · size 20 · 5 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1728,
+      "summary": "14k yellow gold · high polish · size 22 · 5 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1886,
+      "summary": "14k yellow gold · high polish · size 24 · 5 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2235,
+      "summary": "14k yellow gold · high polish · size 16 · 7 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2514,
+      "summary": "14k yellow gold · high polish · size 18 · 7 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2793,
+      "summary": "14k yellow gold · high polish · size 20 · 7 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3073,
+      "summary": "14k yellow gold · high polish · size 22 · 7 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3352,
+      "summary": "14k yellow gold · high polish · size 24 · 7 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 2,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3841,
+      "summary": "14k yellow gold · high polish · size 16 · 9 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 2,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 4321,
+      "summary": "14k yellow gold · high polish · size 18 · 9 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 2,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 4801,
+      "summary": "14k yellow gold · high polish · size 20 · 9 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 2,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 5281,
+      "summary": "14k yellow gold · high polish · size 22 · 9 mm"
+    },
+    {
+      "slug": "miami-cuban",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 2,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 5761,
+      "summary": "14k yellow gold · high polish · size 24 · 9 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1024,
+      "summary": "22k yellow gold · high polish · size 16 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1152,
+      "summary": "22k yellow gold · high polish · size 18 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1280,
+      "summary": "22k yellow gold · high polish · size 20 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1408,
+      "summary": "22k yellow gold · high polish · size 22 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1536,
+      "summary": "22k yellow gold · high polish · size 24 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1714,
+      "summary": "22k yellow gold · high polish · size 16 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1928,
+      "summary": "22k yellow gold · high polish · size 18 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2143,
+      "summary": "22k yellow gold · high polish · size 20 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2357,
+      "summary": "22k yellow gold · high polish · size 22 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2571,
+      "summary": "22k yellow gold · high polish · size 24 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 838,
+      "summary": "18k yellow gold · high polish · size 16 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 943,
+      "summary": "18k yellow gold · high polish · size 18 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1048,
+      "summary": "18k yellow gold · high polish · size 20 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1153,
+      "summary": "18k yellow gold · high polish · size 22 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1258,
+      "summary": "18k yellow gold · high polish · size 24 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1403,
+      "summary": "18k yellow gold · high polish · size 16 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1579,
+      "summary": "18k yellow gold · high polish · size 18 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1754,
+      "summary": "18k yellow gold · high polish · size 20 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1930,
+      "summary": "18k yellow gold · high polish · size 22 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2105,
+      "summary": "18k yellow gold · high polish · size 24 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 654,
+      "summary": "14k yellow gold · high polish · size 16 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 736,
+      "summary": "14k yellow gold · high polish · size 18 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 817,
+      "summary": "14k yellow gold · high polish · size 20 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 899,
+      "summary": "14k yellow gold · high polish · size 22 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 981,
+      "summary": "14k yellow gold · high polish · size 24 · 3 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1095,
+      "summary": "14k yellow gold · high polish · size 16 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1231,
+      "summary": "14k yellow gold · high polish · size 18 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1368,
+      "summary": "14k yellow gold · high polish · size 20 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1505,
+      "summary": "14k yellow gold · high polish · size 22 · 4 mm"
+    },
+    {
+      "slug": "twist-rope",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1642,
+      "summary": "14k yellow gold · high polish · size 24 · 4 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 974,
+      "summary": "18k yellow gold · high polish · size 16 · 4 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1095,
+      "summary": "18k yellow gold · high polish · size 18 · 4 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1217,
+      "summary": "18k yellow gold · high polish · size 20 · 4 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1339,
+      "summary": "18k yellow gold · high polish · size 22 · 4 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1460,
+      "summary": "18k yellow gold · high polish · size 24 · 4 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1502,
+      "summary": "18k yellow gold · high polish · size 16 · 6 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1690,
+      "summary": "18k yellow gold · high polish · size 18 · 6 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1878,
+      "summary": "18k yellow gold · high polish · size 20 · 6 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2066,
+      "summary": "18k yellow gold · high polish · size 22 · 6 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2253,
+      "summary": "18k yellow gold · high polish · size 24 · 6 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 759,
+      "summary": "14k yellow gold · high polish · size 16 · 4 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 854,
+      "summary": "14k yellow gold · high polish · size 18 · 4 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 949,
+      "summary": "14k yellow gold · high polish · size 20 · 4 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1044,
+      "summary": "14k yellow gold · high polish · size 22 · 4 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1139,
+      "summary": "14k yellow gold · high polish · size 24 · 4 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "16",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1172,
+      "summary": "14k yellow gold · high polish · size 16 · 6 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "18",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1318,
+      "summary": "14k yellow gold · high polish · size 18 · 6 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "20",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1465,
+      "summary": "14k yellow gold · high polish · size 20 · 6 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "22",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1611,
+      "summary": "14k yellow gold · high polish · size 22 · 6 mm"
+    },
+    {
+      "slug": "liquid-herringbone",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "24",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1758,
+      "summary": "14k yellow gold · high polish · size 24 · 6 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "15.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1872,
+      "summary": "22k yellow gold · high polish · size 15.5 · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "15.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1907,
+      "summary": "22k yellow gold · high polish · size 15.5 · engraved “AB” · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "16.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1993,
+      "summary": "22k yellow gold · high polish · size 16.5 · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "16.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 2028,
+      "summary": "22k yellow gold · high polish · size 16.5 · engraved “AB” · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "17.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2114,
+      "summary": "22k yellow gold · high polish · size 17.5 · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "17.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 2149,
+      "summary": "22k yellow gold · high polish · size 17.5 · engraved “AB” · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "18.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2234,
+      "summary": "22k yellow gold · high polish · size 18.5 · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "size": "18.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 2269,
+      "summary": "22k yellow gold · high polish · size 18.5 · engraved “AB” · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "15.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2980,
+      "summary": "22k yellow gold · high polish · size 15.5 · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "15.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 3015,
+      "summary": "22k yellow gold · high polish · size 15.5 · engraved “AB” · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "16.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3172,
+      "summary": "22k yellow gold · high polish · size 16.5 · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "16.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 3207,
+      "summary": "22k yellow gold · high polish · size 16.5 · engraved “AB” · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "17.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3364,
+      "summary": "22k yellow gold · high polish · size 17.5 · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "17.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 3399,
+      "summary": "22k yellow gold · high polish · size 17.5 · engraved “AB” · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "18.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3556,
+      "summary": "22k yellow gold · high polish · size 18.5 · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "size": "18.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 3591,
+      "summary": "22k yellow gold · high polish · size 18.5 · engraved “AB” · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "15.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1533,
+      "summary": "18k yellow gold · high polish · size 15.5 · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "15.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1568,
+      "summary": "18k yellow gold · high polish · size 15.5 · engraved “AB” · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "16.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1632,
+      "summary": "18k yellow gold · high polish · size 16.5 · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "16.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1667,
+      "summary": "18k yellow gold · high polish · size 16.5 · engraved “AB” · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "17.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1731,
+      "summary": "18k yellow gold · high polish · size 17.5 · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "17.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1766,
+      "summary": "18k yellow gold · high polish · size 17.5 · engraved “AB” · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "18.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1830,
+      "summary": "18k yellow gold · high polish · size 18.5 · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "size": "18.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1865,
+      "summary": "18k yellow gold · high polish · size 18.5 · engraved “AB” · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "15.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2440,
+      "summary": "18k yellow gold · high polish · size 15.5 · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "15.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 2475,
+      "summary": "18k yellow gold · high polish · size 15.5 · engraved “AB” · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "16.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2597,
+      "summary": "18k yellow gold · high polish · size 16.5 · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "16.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 2632,
+      "summary": "18k yellow gold · high polish · size 16.5 · engraved “AB” · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "17.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2754,
+      "summary": "18k yellow gold · high polish · size 17.5 · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "17.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 2789,
+      "summary": "18k yellow gold · high polish · size 17.5 · engraved “AB” · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "18.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2912,
+      "summary": "18k yellow gold · high polish · size 18.5 · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "size": "18.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 2947,
+      "summary": "18k yellow gold · high polish · size 18.5 · engraved “AB” · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "15.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1196,
+      "summary": "14k yellow gold · high polish · size 15.5 · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "15.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1231,
+      "summary": "14k yellow gold · high polish · size 15.5 · engraved “AB” · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "16.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1273,
+      "summary": "14k yellow gold · high polish · size 16.5 · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "16.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1308,
+      "summary": "14k yellow gold · high polish · size 16.5 · engraved “AB” · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "17.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1350,
+      "summary": "14k yellow gold · high polish · size 17.5 · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "17.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1385,
+      "summary": "14k yellow gold · high polish · size 17.5 · engraved “AB” · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "18.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1427,
+      "summary": "14k yellow gold · high polish · size 18.5 · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "size": "18.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1462,
+      "summary": "14k yellow gold · high polish · size 18.5 · engraved “AB” · 3 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "15.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1903,
+      "summary": "14k yellow gold · high polish · size 15.5 · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "15.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1938,
+      "summary": "14k yellow gold · high polish · size 15.5 · engraved “AB” · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "16.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2026,
+      "summary": "14k yellow gold · high polish · size 16.5 · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "16.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 2061,
+      "summary": "14k yellow gold · high polish · size 16.5 · engraved “AB” · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "17.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2148,
+      "summary": "14k yellow gold · high polish · size 17.5 · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "17.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 2183,
+      "summary": "14k yellow gold · high polish · size 17.5 · engraved “AB” · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "18.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2271,
+      "summary": "14k yellow gold · high polish · size 18.5 · 5 mm"
+    },
+    {
+      "slug": "orbit-bangle",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "size": "18.5",
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 2306,
+      "summary": "14k yellow gold · high polish · size 18.5 · engraved “AB” · 5 mm"
+    },
+    {
+      "slug": "riviera-tennis",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "6.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3222,
+      "summary": "18k white gold · high polish · size 6.5 · 3 mm line"
+    },
+    {
+      "slug": "riviera-tennis",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3289,
+      "summary": "18k white gold · high polish · size 7 · 3 mm line"
+    },
+    {
+      "slug": "riviera-tennis",
+      "config": {
+        "color": "white",
+        "karat": 18,
+        "variant": 0,
+        "size": "7.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3356,
+      "summary": "18k white gold · high polish · size 7.5 · 3 mm line"
+    },
+    {
+      "slug": "riviera-tennis",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "6.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3030,
+      "summary": "14k white gold · high polish · size 6.5 · 3 mm line"
+    },
+    {
+      "slug": "riviera-tennis",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "7",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3083,
+      "summary": "14k white gold · high polish · size 7 · 3 mm line"
+    },
+    {
+      "slug": "riviera-tennis",
+      "config": {
+        "color": "white",
+        "karat": 14,
+        "variant": 0,
+        "size": "7.5",
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3135,
+      "summary": "14k white gold · high polish · size 7.5 · 3 mm line"
+    },
+    {
+      "slug": "luna-hoops",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 432,
+      "summary": "18k yellow gold · high polish · 20 mm"
+    },
+    {
+      "slug": "luna-hoops",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 624,
+      "summary": "18k yellow gold · high polish · 30 mm"
+    },
+    {
+      "slug": "luna-hoops",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 2,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 887,
+      "summary": "18k yellow gold · high polish · 40 mm"
+    },
+    {
+      "slug": "luna-hoops",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 0,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 337,
+      "summary": "14k yellow gold · high polish · 20 mm"
+    },
+    {
+      "slug": "luna-hoops",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 1,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 486,
+      "summary": "14k yellow gold · high polish · 30 mm"
+    },
+    {
+      "slug": "luna-hoops",
+      "config": {
+        "color": "yellow",
+        "karat": 14,
+        "variant": 2,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 692,
+      "summary": "14k yellow gold · high polish · 40 mm"
+    },
+    {
+      "slug": "sol-coin-pendant",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 856,
+      "summary": "22k yellow gold · high polish · 18 mm"
+    },
+    {
+      "slug": "sol-coin-pendant",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 891,
+      "summary": "22k yellow gold · high polish · engraved “AB” · 18 mm"
+    },
+    {
+      "slug": "sol-coin-pendant",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1446,
+      "summary": "22k yellow gold · high polish · 24 mm"
+    },
+    {
+      "slug": "sol-coin-pendant",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1481,
+      "summary": "22k yellow gold · high polish · engraved “AB” · 24 mm"
+    },
+    {
+      "slug": "sol-coin-pendant",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 701,
+      "summary": "18k yellow gold · high polish · 18 mm"
+    },
+    {
+      "slug": "sol-coin-pendant",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 0,
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 736,
+      "summary": "18k yellow gold · high polish · engraved “AB” · 18 mm"
+    },
+    {
+      "slug": "sol-coin-pendant",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1184,
+      "summary": "18k yellow gold · high polish · 24 mm"
+    },
+    {
+      "slug": "sol-coin-pendant",
+      "config": {
+        "color": "yellow",
+        "karat": 18,
+        "variant": 1,
+        "finish": "polished",
+        "engraving": "AB"
+      },
+      "total": 1219,
+      "summary": "18k yellow gold · high polish · engraved “AB” · 24 mm"
+    },
+    {
+      "slug": "assay-bar",
+      "config": {
+        "color": "yellow",
+        "karat": 24,
+        "variant": 0,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 689,
+      "summary": "24k yellow gold · high polish · 5 g"
+    },
+    {
+      "slug": "assay-bar",
+      "config": {
+        "color": "yellow",
+        "karat": 24,
+        "variant": 1,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1379,
+      "summary": "24k yellow gold · high polish · 10 g"
+    },
+    {
+      "slug": "assay-bar",
+      "config": {
+        "color": "yellow",
+        "karat": 24,
+        "variant": 2,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 4289,
+      "summary": "24k yellow gold · high polish · 1 oz"
+    },
+    {
+      "slug": "assay-bar",
+      "config": {
+        "color": "yellow",
+        "karat": 24,
+        "variant": 3,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 6894,
+      "summary": "24k yellow gold · high polish · 50 g"
+    },
+    {
+      "slug": "assay-bar",
+      "config": {
+        "color": "yellow",
+        "karat": 24,
+        "variant": 4,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 13788,
+      "summary": "24k yellow gold · high polish · 100 g"
+    },
+    {
+      "slug": "meridian-round",
+      "config": {
+        "color": "yellow",
+        "karat": 24,
+        "variant": 0,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1083,
+      "summary": "24k yellow gold · high polish · ¼ oz"
+    },
+    {
+      "slug": "meridian-round",
+      "config": {
+        "color": "yellow",
+        "karat": 24,
+        "variant": 1,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 2165,
+      "summary": "24k yellow gold · high polish · ½ oz"
+    },
+    {
+      "slug": "meridian-round",
+      "config": {
+        "color": "yellow",
+        "karat": 24,
+        "variant": 2,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 4330,
+      "summary": "24k yellow gold · high polish · 1 oz"
+    },
+    {
+      "slug": "meridian-round",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 0,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 992,
+      "summary": "22k yellow gold · high polish · ¼ oz"
+    },
+    {
+      "slug": "meridian-round",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 1,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 1983,
+      "summary": "22k yellow gold · high polish · ½ oz"
+    },
+    {
+      "slug": "meridian-round",
+      "config": {
+        "color": "yellow",
+        "karat": 22,
+        "variant": 2,
+        "finish": "polished",
+        "engraving": ""
+      },
+      "total": 3967,
+      "summary": "22k yellow gold · high polish · 1 oz"
+    }
+  ]
+}

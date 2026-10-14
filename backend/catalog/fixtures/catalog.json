@@ -1,0 +1,629 @@
+[
+  {
+    "slug": "aurora-solitaire",
+    "name": "Aurora Solitaire",
+    "category": "rings",
+    "colors": [
+      "yellow",
+      "rose",
+      "white"
+    ],
+    "karats": [
+      18,
+      14
+    ],
+    "variants": [
+      {
+        "label": "1.8 mm band",
+        "grams": 2.4
+      },
+      {
+        "label": "2.2 mm band",
+        "grams": 3.1
+      }
+    ],
+    "sizes": {
+      "kind": "ring",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "base": "7"
+    },
+    "finishes": [
+      "polished",
+      "satin"
+    ],
+    "engraving": {
+      "maxChars": 18
+    },
+    "making": {
+      "type": "flat",
+      "value": 280
+    },
+    "premium": null,
+    "stones": 890,
+    "defaults": {
+      "color": "yellow",
+      "karat": 18,
+      "variant": 0,
+      "size": "7",
+      "finish": "polished",
+      "engraving": ""
+    }
+  },
+  {
+    "slug": "heritage-signet",
+    "name": "Heritage Signet",
+    "category": "rings",
+    "colors": [
+      "yellow",
+      "rose",
+      "white"
+    ],
+    "karats": [
+      22,
+      18,
+      14
+    ],
+    "variants": [
+      {
+        "label": "Classic 12 × 10 mm",
+        "grams": 8.6
+      },
+      {
+        "label": "Grand 15 × 12 mm",
+        "grams": 12.4
+      }
+    ],
+    "sizes": {
+      "kind": "ring",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "base": "7"
+    },
+    "finishes": [
+      "polished",
+      "satin",
+      "hammered"
+    ],
+    "engraving": {
+      "maxChars": 3
+    },
+    "making": {
+      "type": "pct",
+      "value": 0.18
+    },
+    "premium": null,
+    "stones": 0,
+    "defaults": {
+      "color": "yellow",
+      "karat": 18,
+      "variant": 0,
+      "size": "9",
+      "finish": "polished",
+      "engraving": "SLN"
+    }
+  },
+  {
+    "slug": "halo-eternity",
+    "name": "Halo Eternity Band",
+    "category": "rings",
+    "colors": [
+      "yellow",
+      "rose",
+      "white"
+    ],
+    "karats": [
+      18,
+      14
+    ],
+    "variants": [
+      {
+        "label": "2.6 mm band",
+        "grams": 3.2
+      }
+    ],
+    "sizes": {
+      "kind": "ring",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "base": "7"
+    },
+    "finishes": [
+      "polished"
+    ],
+    "engraving": {
+      "maxChars": 18
+    },
+    "making": {
+      "type": "flat",
+      "value": 320
+    },
+    "premium": null,
+    "stones": 1250,
+    "defaults": {
+      "color": "white",
+      "karat": 18,
+      "variant": 0,
+      "size": "6",
+      "finish": "polished",
+      "engraving": ""
+    }
+  },
+  {
+    "slug": "miami-cuban",
+    "name": "Miami Cuban Chain",
+    "category": "necklaces",
+    "colors": [
+      "yellow",
+      "rose",
+      "white"
+    ],
+    "karats": [
+      18,
+      14
+    ],
+    "variants": [
+      {
+        "label": "5 mm",
+        "grams": 18
+      },
+      {
+        "label": "7 mm",
+        "grams": 32
+      },
+      {
+        "label": "9 mm",
+        "grams": 55
+      }
+    ],
+    "sizes": {
+      "kind": "length",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "22",
+        "24"
+      ],
+      "base": "20"
+    },
+    "finishes": [
+      "polished"
+    ],
+    "engraving": null,
+    "making": {
+      "type": "pct",
+      "value": 0.12
+    },
+    "premium": null,
+    "stones": 0,
+    "defaults": {
+      "color": "yellow",
+      "karat": 14,
+      "variant": 1,
+      "size": "20",
+      "finish": "polished",
+      "engraving": ""
+    }
+  },
+  {
+    "slug": "twist-rope",
+    "name": "Twist Rope Chain",
+    "category": "necklaces",
+    "colors": [
+      "yellow",
+      "rose",
+      "white"
+    ],
+    "karats": [
+      22,
+      18,
+      14
+    ],
+    "variants": [
+      {
+        "label": "3 mm",
+        "grams": 9.2
+      },
+      {
+        "label": "4 mm",
+        "grams": 15.4
+      }
+    ],
+    "sizes": {
+      "kind": "length",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "22",
+        "24"
+      ],
+      "base": "20"
+    },
+    "finishes": [
+      "polished"
+    ],
+    "engraving": null,
+    "making": {
+      "type": "pct",
+      "value": 0.14
+    },
+    "premium": null,
+    "stones": 0,
+    "defaults": {
+      "color": "yellow",
+      "karat": 18,
+      "variant": 0,
+      "size": "20",
+      "finish": "polished",
+      "engraving": ""
+    }
+  },
+  {
+    "slug": "liquid-herringbone",
+    "name": "Liquid Herringbone",
+    "category": "necklaces",
+    "colors": [
+      "yellow",
+      "rose",
+      "white"
+    ],
+    "karats": [
+      18,
+      14
+    ],
+    "variants": [
+      {
+        "label": "4 mm",
+        "grams": 10.5
+      },
+      {
+        "label": "6 mm",
+        "grams": 16.2
+      }
+    ],
+    "sizes": {
+      "kind": "length",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "22",
+        "24"
+      ],
+      "base": "20"
+    },
+    "finishes": [
+      "polished",
+      "satin"
+    ],
+    "engraving": null,
+    "making": {
+      "type": "pct",
+      "value": 0.16
+    },
+    "premium": null,
+    "stones": 0,
+    "defaults": {
+      "color": "yellow",
+      "karat": 18,
+      "variant": 0,
+      "size": "18",
+      "finish": "polished",
+      "engraving": ""
+    }
+  },
+  {
+    "slug": "orbit-bangle",
+    "name": "Orbit Bangle",
+    "category": "bracelets",
+    "colors": [
+      "yellow",
+      "rose",
+      "white"
+    ],
+    "karats": [
+      22,
+      18,
+      14
+    ],
+    "variants": [
+      {
+        "label": "3 mm",
+        "grams": 14.2
+      },
+      {
+        "label": "5 mm",
+        "grams": 22.6
+      }
+    ],
+    "sizes": {
+      "kind": "wrist",
+      "options": [
+        "15.5",
+        "16.5",
+        "17.5",
+        "18.5"
+      ],
+      "base": "16.5"
+    },
+    "finishes": [
+      "polished",
+      "satin",
+      "hammered"
+    ],
+    "engraving": {
+      "maxChars": 24
+    },
+    "making": {
+      "type": "pct",
+      "value": 0.15
+    },
+    "premium": null,
+    "stones": 0,
+    "defaults": {
+      "color": "yellow",
+      "karat": 18,
+      "variant": 0,
+      "size": "16.5",
+      "finish": "polished",
+      "engraving": ""
+    }
+  },
+  {
+    "slug": "riviera-tennis",
+    "name": "Riviera Tennis Bracelet",
+    "category": "bracelets",
+    "colors": [
+      "yellow",
+      "rose",
+      "white"
+    ],
+    "karats": [
+      18,
+      14
+    ],
+    "variants": [
+      {
+        "label": "3 mm line",
+        "grams": 9.4
+      }
+    ],
+    "sizes": {
+      "kind": "wrist",
+      "options": [
+        "6.5",
+        "7",
+        "7.5"
+      ],
+      "base": "7"
+    },
+    "finishes": [
+      "polished"
+    ],
+    "engraving": null,
+    "making": {
+      "type": "flat",
+      "value": 450
+    },
+    "premium": null,
+    "stones": 1900,
+    "defaults": {
+      "color": "white",
+      "karat": 18,
+      "variant": 0,
+      "size": "7",
+      "finish": "polished",
+      "engraving": ""
+    }
+  },
+  {
+    "slug": "luna-hoops",
+    "name": "Luna Hoops",
+    "category": "earrings",
+    "colors": [
+      "yellow",
+      "rose",
+      "white"
+    ],
+    "karats": [
+      18,
+      14
+    ],
+    "variants": [
+      {
+        "label": "20 mm",
+        "grams": 3.6
+      },
+      {
+        "label": "30 mm",
+        "grams": 5.2
+      },
+      {
+        "label": "40 mm",
+        "grams": 7.4
+      }
+    ],
+    "sizes": null,
+    "finishes": [
+      "polished",
+      "satin",
+      "hammered"
+    ],
+    "engraving": null,
+    "making": {
+      "type": "pct",
+      "value": 0.2
+    },
+    "premium": null,
+    "stones": 0,
+    "defaults": {
+      "color": "yellow",
+      "karat": 18,
+      "variant": 1,
+      "finish": "polished",
+      "engraving": ""
+    }
+  },
+  {
+    "slug": "sol-coin-pendant",
+    "name": "Sol Coin Pendant",
+    "category": "necklaces",
+    "colors": [
+      "yellow",
+      "rose"
+    ],
+    "karats": [
+      22,
+      18
+    ],
+    "variants": [
+      {
+        "label": "18 mm",
+        "grams": 6.1
+      },
+      {
+        "label": "24 mm",
+        "grams": 10.3
+      }
+    ],
+    "sizes": null,
+    "finishes": [
+      "polished",
+      "satin"
+    ],
+    "engraving": {
+      "maxChars": 14
+    },
+    "making": {
+      "type": "pct",
+      "value": 0.15
+    },
+    "premium": null,
+    "stones": 0,
+    "defaults": {
+      "color": "yellow",
+      "karat": 22,
+      "variant": 0,
+      "finish": "polished",
+      "engraving": ""
+    }
+  },
+  {
+    "slug": "assay-bar",
+    "name": "Assay Cast Bar",
+    "category": "bullion",
+    "colors": [
+      "yellow"
+    ],
+    "karats": [
+      24
+    ],
+    "variants": [
+      {
+        "label": "5 g",
+        "grams": 5
+      },
+      {
+        "label": "10 g",
+        "grams": 10
+      },
+      {
+        "label": "1 oz",
+        "grams": 31.1035
+      },
+      {
+        "label": "50 g",
+        "grams": 50
+      },
+      {
+        "label": "100 g",
+        "grams": 100
+      }
+    ],
+    "sizes": null,
+    "finishes": [
+      "polished"
+    ],
+    "engraving": null,
+    "making": null,
+    "premium": 0.035,
+    "stones": 0,
+    "defaults": {
+      "color": "yellow",
+      "karat": 24,
+      "variant": 2,
+      "finish": "polished",
+      "engraving": ""
+    }
+  },
+  {
+    "slug": "meridian-round",
+    "name": "Meridian Round",
+    "category": "bullion",
+    "colors": [
+      "yellow"
+    ],
+    "karats": [
+      24,
+      22
+    ],
+    "variants": [
+      {
+        "label": "¼ oz",
+        "grams": 7.776
+      },
+      {
+        "label": "½ oz",
+        "grams": 15.552
+      },
+      {
+        "label": "1 oz",
+        "grams": 31.1035
+      }
+    ],
+    "sizes": null,
+    "finishes": [
+      "polished"
+    ],
+    "engraving": null,
+    "making": null,
+    "premium": 0.045,
+    "stones": 0,
+    "defaults": {
+      "color": "yellow",
+      "karat": 24,
+      "variant": 0,
+      "finish": "polished",
+      "engraving": ""
+    }
+  }
+]
