@@ -8,6 +8,10 @@
   `docker-compose.yml`.
 - Frontend: `#backend` alias selects the Artifact DB or the REST adapter at build time; `#ledger` gains sign-in,
   status filter and live stats in the API build; checkout handles a re-priced bag.
+- Stack verified end to end (403 backend tests, compose through nginx). Fixes from that run: compose builds the
+  `runtime` stage (not the test stage); nginx upstream zone renamed (clashed with the `api` rate-limit zone);
+  the `orders` limit counts POSTs only; access log keeps the original method on error pages; `ensure_topics`
+  creates Kafka topics before the monitor subscribes; tests never publish to Kafka.
 
 ## 2026-10-10
 - README rewritten as a product page: 60 s teaser with an original soundtrack, nine GIFs recorded from the build, deploy guide.

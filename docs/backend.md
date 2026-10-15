@@ -73,7 +73,7 @@ runs `manage.py ensure_owner`). The same account signs in to `/admin/`.
 | Layer | Scope | Limit |
 |---|---|---|
 | nginx `limit_req` | any path, per IP | 20 r/s, burst 40 |
-| nginx | `POST/GET /api/v1/orders/` | 5 r/min, burst 3 |
+| nginx | `POST /api/v1/orders/` (owner GETs are exempt) | 5 r/min, burst 3 |
 | nginx | `/api/v1/auth/`, `/admin/` | 10 r/min, burst 5 / 20 |
 | nginx `limit_conn` | per IP | 20 connections |
 | DRF (Redis, shared by replicas) | anonymous API calls | 120/min (`THROTTLE_ANON`) |
@@ -92,6 +92,8 @@ nginx refusals answer `429 {"error":"throttled",...}` from `infra/nginx/errors/`
 - The producer (`monitoring/events.py`) only enqueues into librdkafka's buffer (`linger.ms` 50, lz4). If Kafka is
   down or the buffer is full the event is dropped and a warning is logged at most once a minute; requests never
   wait on Kafka. `KAFKA_ENABLED=false` (tests, local dev) records events in memory instead.
+- The `migrate` job runs `manage.py ensure_topics` (3 partitions, 72 h retention) so the topics exist before the
+  consumer subscribes.
 - `manage.py consume_metrics` (the `monitor` service, group `solenne-monitor`) polls batches of up to 500, folds
   them into per-minute `MetricBucket` rows (one upsert per minute/method/route) and `OrderEvent` rows, then commits
   offsets: at-least-once.

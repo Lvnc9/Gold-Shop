@@ -5,7 +5,9 @@
 # Details: docs/backend.md, docs/deployment.md.
 
 x-django: &django
-  build: ./backend
+  build:
+    context: ./backend
+    target: runtime  # the last stage, `dev`, is the test image
   env_file: .env
   environment:
     DATABASE_URL: postgres://solenne:${POSTGRES_PASSWORD}@postgres:5432/solenne
@@ -59,6 +61,8 @@ services:
     restart: "no"
     depends_on:
       postgres:
+        condition: service_healthy
+      kafka:
         condition: service_healthy
 
   monitor:
