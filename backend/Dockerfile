@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM python:3.13-slim AS base
+FROM python:3.13-slim AS runtime
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1 PIP_DISABLE_PIP_VERSION_CHECK=1
 WORKDIR /app
 COPY requirements.txt .
@@ -14,7 +14,7 @@ CMD ["gunicorn", "solenne.wsgi:application", "--bind", "0.0.0.0:8000", "--worker
      "--max-requests", "2000", "--max-requests-jitter", "200", "--access-logfile", "-", \
      "--access-logformat", "{\"time\":\"%(t)s\",\"request_id\":\"%({x-request-id}i)s\",\"method\":\"%(m)s\",\"path\":\"%(U)s\",\"status\":%(s)s,\"duration_ms\":%(M)s}"]
 
-FROM base AS dev
+FROM runtime AS dev
 USER root
 COPY requirements-dev.txt .
 RUN pip install -r requirements-dev.txt

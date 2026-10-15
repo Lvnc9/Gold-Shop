@@ -15,7 +15,7 @@ def env_bool(name: str, default: bool) -> bool:
 
 DEBUG = env_bool("DJANGO_DEBUG", False)
 # The compose stack always sets DJANGO_SECRET_KEY; the fallback only serves local dev and tests.
-SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY") or "dev-only-insecure-key-change-me"
+SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY") or "dev-only-insecure-key-never-use-in-production"
 ALLOWED_HOSTS = [h for h in os.environ.get("DJANGO_ALLOWED_HOSTS", "localhost,127.0.0.1,api").split(",") if h]
 CSRF_TRUSTED_ORIGINS = [o for o in os.environ.get("DJANGO_CSRF_TRUSTED_ORIGINS", "http://localhost:8080").split(",") if o]
 

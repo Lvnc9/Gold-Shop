@@ -23,6 +23,7 @@ class Command(BaseCommand):
             "group.id": "solenne-monitor",
             "auto.offset.reset": "earliest",
             "enable.auto.commit": False,  # commit only after the rollup is in the DB: at-least-once
+            "topic.metadata.refresh.interval.ms": 10_000,  # notice new topics quickly (default is 5 min)
         })
         consumer.subscribe(list(topics.values()))
         running = True

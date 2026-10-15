@@ -7,7 +7,9 @@ from monitoring import events
 
 
 @pytest.fixture(autouse=True)
-def _clean(db):
+def _clean(db, settings):
+    # Never publish test traffic, even when the container's env enables Kafka.
+    settings.KAFKA = {**settings.KAFKA, "enabled": False}
     cache.clear()
     events.sent.clear()
     call_command("seed_catalog", verbosity=0)
