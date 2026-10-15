@@ -44,3 +44,30 @@ def test_emit_never_raises_when_kafka_is_down(settings):
     settings.KAFKA = {**settings.KAFKA, "enabled": True, "bootstrap": "127.0.0.1:1"}
     events.emit("orders", {"type": "order.created"})  # must return immediately without raising
     assert Product.objects.exists()
+
+
+def test_ensure_topics_is_idempotent(settings, monkeypatch):
+    import sys
+    import types
+
+    from django.core.management import call_command
+
+    created = []
+
+    class FakeAdmin:
+        def __init__(self, conf):
+            pass
+
+        def list_topics(self, timeout):
+            return types.SimpleNamespace(topics={t: None for t in settings.KAFKA["topics"].values()})
+
+        def create_topics(self, topics):
+            created.append(topics)
+            return {}
+
+    fake = types.ModuleType("confluent_kafka.admin")
+    fake.AdminClient, fake.NewTopic = FakeAdmin, lambda *a, **k: None
+    monkeypatch.setitem(sys.modules, "confluent_kafka.admin", fake)
+    settings.KAFKA = {**settings.KAFKA, "enabled": True}
+    call_command("ensure_topics")  # every topic exists: must not call create_topics([])
+    assert created == []
