@@ -12,6 +12,8 @@
   `runtime` stage (not the test stage); nginx upstream zone renamed (clashed with the `api` rate-limit zone);
   the `orders` limit counts POSTs only; access log keeps the original method on error pages; `ensure_topics`
   creates Kafka topics before the monitor subscribes; tests never publish to Kafka.
+- Footer ledger link follows owner sign-in/out without a reload (`uiStore.isOwner`); ledger stat tiles fill the last
+  row at phone width; `ensure_topics` is a no-op when the topics exist (it crashed the second `migrate` run).
 
 ## 2026-10-10
 - README rewritten as a product page: 60 s teaser with an original soundtrack, nine GIFs recorded from the build, deploy guide.

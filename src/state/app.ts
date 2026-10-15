@@ -25,11 +25,15 @@ export interface Toast {
   text: string;
   icon?: 'bag' | 'heart' | 'check' | 'copy';
 }
-export const uiStore = createStore<{ cartOpen: boolean; toast: Toast | null; lastOrder: OrderRecord | null }>({
+export const uiStore = createStore<{ cartOpen: boolean; toast: Toast | null; lastOrder: OrderRecord | null; isOwner: boolean }>({
   cartOpen: false,
   toast: null,
   lastOrder: null,
+  // Set on load (App) and by ledger sign-in/out, so the footer link follows the session without a reload.
+  isOwner: false,
 });
+
+export const setOwner = (isOwner: boolean) => uiStore.set((s) => ({ ...s, isOwner }));
 
 let toastTimer = 0;
 export function toast(text: string, icon?: Toast['icon']) {

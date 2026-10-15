@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'motion/react';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { CartDrawer } from './components/layout/CartDrawer';
 import { FlyLayer } from './components/layout/FlyLayer';
 import { Footer } from './components/layout/Footer';
@@ -16,6 +16,8 @@ import { ShopPage } from './pages/ShopPage';
 import { parse, useHash, type Route } from './router';
 import { viewerIsOwner } from './services/orders';
 import { watchSpot } from './services/spot';
+import { setOwner, uiStore } from './state/app';
+import { useStore } from './state/store';
 
 function pageKey(r: Route) {
   if (r.name === 'product') return `p-${r.slug}`;
@@ -45,7 +47,7 @@ function Page({ route }: { route: Route }) {
 export function App() {
   const route = parse(useHash());
   const key = pageKey(route);
-  const [isOwner, setOwner] = useState(false);
+  const { isOwner } = useStore(uiStore);
 
   useEffect(() => {
     startSmoothScroll();

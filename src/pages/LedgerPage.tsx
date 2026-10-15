@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { money } from '../domain/format';
 import { listAllOrders, owner, viewerIsOwner, type OrderRecord } from '../services/orders';
 import type { MonitorStats } from '../services/backend/types';
+import { setOwner as setSessionOwner } from '../state/app';
 
 type Status = OrderRecord['status'];
 const FILTERS: (Status | 'all')[] = ['all', 'received', 'confirmed', 'shipped', 'cancelled'];
@@ -23,6 +24,7 @@ export function LedgerPage() {
   useEffect(() => {
     viewerIsOwner().then((o) => {
       setOwner(o);
+      setSessionOwner(o);
       if (o) refresh();
     });
   }, [refresh]);
@@ -32,6 +34,7 @@ export function LedgerPage() {
       <SignIn
         onDone={() => {
           setOwner(true);
+          setSessionOwner(true);
           refresh();
         }}
       />
@@ -62,6 +65,7 @@ export function LedgerPage() {
               onClick={() =>
                 owner.signOut?.().then(() => {
                   setOwner(false);
+                  setSessionOwner(false);
                   setOrders(null);
                   setStats(null);
                 })

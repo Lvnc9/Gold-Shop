@@ -325,8 +325,9 @@
   gap: 8px;
 }
 .ledger__stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* Flex, not grid: tiles on a short last row stretch instead of leaving an empty cell. */
+  display: flex;
+  flex-wrap: wrap;
   gap: 1px;
   margin: 0 0 24px;
   background: var(--line);
@@ -335,6 +336,7 @@
   overflow: hidden;
 }
 .ledger__stats > div {
+  flex: 1 1 150px;
   padding: 14px 16px;
   background: var(--bg);
 }
